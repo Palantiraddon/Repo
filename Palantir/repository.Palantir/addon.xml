@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.Palantir" name="[COLOR gold]Palantir[/COLOR] Repo" version="1.0.1" provider-name="TierraMedia">
+    <extension point="xbmc.addon.repository" name="Palantir Repo">
+        <info>https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/alfa-addon/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/alfa-addon/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/alfa-addon/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio para Palantir</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
