@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.22" provider-name="TierraMedia">
+<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.23" provider-name="TierraMedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
