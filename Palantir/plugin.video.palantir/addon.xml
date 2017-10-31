@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.26" provider-name="TierraMedia">
+<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.27" provider-name="TierraMedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.simple.downloader" version="1.9.5"/> # Add this
+    <import addon="script.module.simple.downloader" version="1.9.5"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="orthanc.py">
     <provides>video</provides>
@@ -14,18 +14,28 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>TV</summary>
-    <news>[B][COLOR gold]Estos son los cambios de la versión 0.0.24:[/B][/COLOR]
-				[COLOR lime][B]Mejoras Importantes [/B][/COLOR]
-		- Opción para configurar la cuenta de kbg.
-		- En el menú principal una sección dinámica Especiales (basado en sagas).
-		- En el menú dibujos añadido pelis de dibujos más vistas y pelis de dibujos más vistas en el último mes.
-		- Corregido fanart de algunas opciones que aparecían vacías.
-
+    <news>[B][COLOR gold]Estos son los cambios de la versión 0.0.27:[/B][/COLOR]
+        - Cambio fanart.
+        - Posibilidad de mostrar series anime también en dibujos
+        - Funcionalidad interna para desactivar contenido que no funcione
+        [COLOR lime][B] versión 0.0.26 [/B][/COLOR]
+        - Cambio pequeño para corregir incompatibilidad con Jarvis
+        [COLOR lime][B] versión 0.0.25 [/B][/COLOR]
+        - Arreglar el error cuando se instala de 0
+        [COLOR lime][B] versión 0.0.24 [/B][/COLOR]
+        - Opción para configurar la cuenta de kbg.
+        - En el menú principal una sección dinámica Especiales (basado en sagas).
+        - En el menú dibujos añadido pelis de dibujos más vistas y pelis de dibujos más vistas en el último mes.
+        - Corregido fanart de algunas opciones que aparecían vacías.
     </news>
     <description>Visualiza el contenido de la nube, series, películas.</description>
     <disclaimer>[B][COLOR red]Todo el contenido disponible en este Addon esta sacado de servidores gratuitos, disponible en la red para todos los usuarios.[/B][/COLOR]</disclaimer>
     <language></language>
     <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.gif</fanart>
+    </assets>
     <license></license>
     <forum></forum>
     <website></website>
