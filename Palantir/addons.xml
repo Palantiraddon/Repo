@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.32" provider-name="TierraMedia">
+<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.34" provider-name="TierraMedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simple.downloader" version="1.9.5"/>
@@ -16,13 +16,14 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>TV</summary>
-    <news>[COLOR lime][B] versión 0.0.32 [/B][/COLOR]
-        - Fix Jarvis Download Bug
-        - Optimize Downloads
-        [B][COLOR gold] versión 0.0.31[/COLOR][/B]
-        - Lista de favoritos para Pelis, Series y Dibujos de manera independiente
-        - Descarga de contenido para visualizacion offline.
-        - Configurar Vistas por defecto
+    <news>[COLOR lime][B] versión 0.0.34 [/B][/COLOR]
+        - Optimizacion de Descargas
+        - Copia de Seguridad
+        - Ruta para favoritos
+        - Herramientas para realizar acciones disponibles en ajustes del addon.
+        - Favoritos Ordenados
+        - Multiples especiales
+        - Soporte mas proveedores
     </news>
     <description>Visualiza el contenido de la nube, series, películas.</description>
     <disclaimer>[B][COLOR red]Todo el contenido disponible en este Addon esta sacado de servidores gratuitos, disponible en la red para todos los usuarios.[/B][/COLOR]</disclaimer>
