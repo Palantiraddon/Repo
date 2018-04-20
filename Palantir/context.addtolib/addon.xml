@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon
+    id="context.addtolib"
+    name="Add to Lib"
+    version="1.0.16"
+    provider-name="Taifxx"
+    >
+  <requires>
+    <import 
+        addon="xbmc.python"
+        version="2.1.0"
+    />
+  </requires>
+  <extension 
+      point="kodi.context.item" 
+      library="context.py"
+  >
+		<item>
+			<label>$ADDON[context.addtolib 29999]</label>
+			<!--visible>Container.Content(tvshows)|Container.Content(movies)|Container.Content(musicvideos)|Container.Content(episodes)</visible-->
+			<visible>True</visible>
+		</item>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="login"/>
+  <extension point="xbmc.python.script" library="context.py"/>
+  <extension point="xbmc.addon.metadata">
+  
+    <summary lang="en">Adds links to movies and TV shows from other add-ons in Kodi library</summary>
+    <summary lang="ru">Добавляет ссылки на фильмы и сериалы из других дополнений в библиотеку Kodi</summary>
+    <summary lang="es">Añadir enlaces a Películas y Series de otros add-ons en Kodi biblioteca</summary> 
+    
+    <description lang="en">Context menu item to add links to TV shows and movies from other add-ons in Kodi library, as .strm files. The addition allows you to check for new episodes and seasons, manage added content, and to receive full information from the library to playable .strm files. 
+More information can be found in the help section.
+
+Details on http://taifxx.github.io/xxtrep</description>
+    <description lang="ru">Элемент контекстного меню для добавления ссылок на сериалы и фильмы из других дополнений в библиотеку Kodi, как .strm файлов. Дополнение позволяет проверять наличие новых эпизодов и сезонов, управлять добавленным контентом, а также получать полноценную информацию из библиотеки для воспроизводимых .strm файлов. 
+Больше информации можно получить в разделе Помощи дополнения.
+
+Детали на http://taifxx.github.io/xxtrep.ru</description>
+    <description lang="es">Elemento de menú contextual para añadir enlaces a Películas y Series de otros complementos en Kodi biblioteca, como archivos .strm. La adición permite chequear nuevos episodios y temporadas, administrar contenidos agregados, recibir información completa de la biblioteca cuando el video se reproduce.
+Más información puede encontrarse en la sección de ayuda. Gracias Ruorbe para la traducción.
+
+Detalles sobre http://taifxx.github.io/xxtrep</description>
+     
+    <disclaimer lang="en"></disclaimer>
+    <disclaimer lang="ru"></disclaimer>
+    <disclaimer lang="es"></disclaimer>
+    
+    <platform>all</platform>
+    
+    <website>http://taifxx.github.io/xxtrep</website>
+    <source>https://github.com/Taifxx/xxtrep/tree/master/context.addtolib</source>
+    
+    <forum lang="en">http://forum.kodi.tv/showthread.php?tid=268997</forum>
+    <forum lang="ru">http://xbmc.ru/forum/showthread.php?t=12708</forum>
+    
+    <email>xxtrep@yandex.ru</email>
+    
+    <license>GNU GENERAL PUBLIC LICENSE V3</license>
+    
+  </extension>
+</addon>
