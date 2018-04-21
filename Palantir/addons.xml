@@ -62,7 +62,7 @@ Detalles sobre http://taifxx.github.io/xxtrep</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.41" provider-name="TierraMedia">
+<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.42" provider-name="TierraMedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simple.downloader" version="1.9.5"/>
@@ -79,13 +79,9 @@ Detalles sobre http://taifxx.github.io/xxtrep</description>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>TV</summary>
-    <news>[COLOR lime][B] versión 0.0.41 [/B][/COLOR]
-        - Cambiada la opcion de descarga en pelis al menu donde estan las diferentes calidades
-        - Posibilidad de añadir una saga al menu principal
-        - Opcion de abrir los ajustes dentro de herramientas
-        - Paginacion en Pelis por generos
-        - [Interno] Corregida funcionalidad de marcar como visto tambien para los grupos de peliculas
-        - [Interno] Corregida la visualizacion de sagas
+    <news>[COLOR lime][B] versión 0.0.42 [/B][/COLOR]
+        - Paginacion añadida en todas las categorias por películas
+        - [Interno] Corregida visualizacion de Gloria.tv
     </news>
     <description>Visualiza el contenido de la nube, series, películas.</description>
     <disclaimer>[B][COLOR red]Todo el contenido disponible en este Addon esta sacado de servidores gratuitos, disponible en la red para todos los usuarios.[/B][/COLOR]</disclaimer>
