@@ -64,7 +64,7 @@ Detalles sobre http://taifxx.github.io/xxtrep</description>
 
 <addon id="plugin.video.EasyPalantir"
 	   name="Easy Palantir"
-	   version="1.0.2"
+	   version="1.0.3"
 	   provider-name="Insane in the Brain">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
