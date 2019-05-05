@@ -62,6 +62,37 @@ Detalles sobre http://taifxx.github.io/xxtrep</description>
   </extension>
 </addon>
 
+<addon
+	id="context.agregacontenido"
+	name="Agrega contenido"
+	version="0.0.5"
+	provider-name="Adrian">
+  <requires>
+	<import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<item library="default.py">
+				<label>$ADDON[context.agregacontenido 32000]</label>
+				<visible>Container.Content(tvshows)|Container.Content(movies)|Container.Content(musicvideos)|!IsEmpty(ListItem.Genre)</visible>
+			</item>
+			<item library="updater.py">
+				<label>$ADDON[context.agregacontenido 33000]</label>
+				<visible>Container.Content(tvshows)|Container.Content(movies)|Container.Content(musicvideos)|!IsEmpty(ListItem.Genre)</visible>
+			</item>
+		</menu>
+	</extension>
+  <extension point="xbmc.service" library="service.py" />
+
+  <extension point="kodi.addon.metadata">
+    <platform>all</platform>
+    <summary lang="es">Agrega contenido generando un STRM</summary>
+    <description lang="es">Agrega peliculas y series a tu libreria de Kodi. Crea un STRM para cada contenido.</description>
+    <forum></forum>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.57" provider-name="TierraMedia">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
