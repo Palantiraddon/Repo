@@ -2,7 +2,7 @@
 <addon
 	id="context.agregacontenido"
 	name="Agrega contenido"
-	version="0.0.6"
+	version="0.0.7"
 	provider-name="Adrian">
   <requires>
 	<import addon="xbmc.python" version="2.25.0"/>
