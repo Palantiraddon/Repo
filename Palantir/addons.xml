@@ -65,7 +65,7 @@ Detalles sobre http://taifxx.github.io/xxtrep</description>
 <addon
 	id="context.agregacontenido"
 	name="Agrega contenido"
-	version="0.0.7"
+	version="0.0.8"
 	provider-name="Adrian">
   <requires>
 	<import addon="xbmc.python" version="2.25.0"/>
@@ -80,6 +80,10 @@ Detalles sobre http://taifxx.github.io/xxtrep</description>
 				<label>$ADDON[context.agregacontenido 33000]</label>
 				<visible>Container.Content(tvshows)|Container.Content(movies)|Container.Content(musicvideos)|!IsEmpty(ListItem.Genre)</visible>
 			</item>
+      <item library="borrador.py">
+        <label>$ADDON[context.agregacontenido 34000]</label>
+        <visible>Container.Content(tvshows)|Container.Content(movies)|Container.Content(musicvideos)|!IsEmpty(ListItem.Genre)</visible>
+      </item>
 		</menu>
 	</extension>
   <extension point="xbmc.service" library="service.py" />
