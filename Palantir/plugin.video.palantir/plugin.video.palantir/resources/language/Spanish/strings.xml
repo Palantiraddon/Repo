@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <!-- Settings Menu-->
+    <string id="30001">Cuentas</string>
+    <string id="30000">Descargas</string>
+    <string id="30002">Interfaz</string>
+    <string id="30003">Backup</string>
+    <string id="30004">Rutas</string>
+	<string id="30005">Cache</string>
+
+    <!-- Settings Content-->
+    <string id="32000">Usuario:</string>
+    <string id="32001">Contraseña:</string>
+    <string id="32002">Validar credenciales</string>
+    <string id="31000">Número máximo de descargas</string>
+    <string id="31001">Tamaño Max en la carpeta de descargas</string>
+    <string id="31002">Ruta para las Descargas</string>
+    <string id="31003">Validar la configuracion de descargas</string>
+    <string id="31004">Limpiar archivos temporales</string>
+    <string id="31103">1GB</string>
+    <string id="31104">2GB</string>
+    <string id="31105">3GB</string>
+    <string id="31106">5GB</string>
+    <string id="31107">10GB</string>
+    <string id="31108">20GB</string>
+    <string id="31109">Ilimitado</string>
+    <string id="31110">Opciones para las Descargas</string>
+
+    <string id="33000">Color del Menu</string>
+    <string id="33001">Color de Temporada Alternativa</string>
+    <string id="33002">Color del capitulo</string>
+    <string id="33003">Color de la película</string>
+    <string id="33004">Color de la calidad</string>
+    <string id="33005">Color del audio</string>
+    <string id="33006">Color de la categoria</string>
+    <string id="33007">Color de la fecha</string>
+    <string id="33008">Colores</string>
+    <string id="33009">Vistas</string>
+    <string id="33010">Vista Principal</string>
+    <string id="33011">Descargas</string>
+    <string id="33012">Favoritos</string>
+    <string id="33013">Pelis</string>
+    <string id="33015">Listas</string>
+    <string id="33016">Series</string>
+    <string id="33014">Episodios</string>
+    <string id="33017">Color del servidor</string>
+    <string id="33018">Habilitar vistas personalizas</string>
+
+    <string id="34000">Crear copia</string>
+    <string id="34001">Resturar copia</string>
+    <string id="34002">Carpeta para almacenar la copia</string>
+    <string id="34003">Fichero a restaurar</string>
+    <string id="34004">Ruta para los Favoritos</string>
+    <string id="34005">Ruta para la copia de seguridad</string>
+</strings>

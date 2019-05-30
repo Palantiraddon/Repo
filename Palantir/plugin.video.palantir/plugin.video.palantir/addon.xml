@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.60" provider-name="TierraMedia">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.simple.downloader" version="1.9.5"/>
+	<import addon="script.module.requests"/>
+    <import addon="script.module.resolveurl" optional="true"/>
+    <import addon="script.extendedinfo" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="orthanc.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.repository" name="Palantir Repo">
+        <info>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>TV</summary>
+    <news>[COLOR lime][B] versión 0.0.60 [/B][/COLOR]
+        - [Interno] Soporte para el servidor H265 actualizado.
+        - [Interno] Correcciones internas.
+    </news>
+    <description>Visualiza el contenido de la nube, series, películas.</description>
+    <disclaimer>[B][COLOR red]Todo el contenido disponible en este Addon esta sacado de servidores gratuitos, disponible en la red para todos los usuarios.[/B][/COLOR]</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.gif</fanart>
+    </assets>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
