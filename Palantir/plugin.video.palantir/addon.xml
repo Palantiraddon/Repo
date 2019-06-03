@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.60" provider-name="TierraMedia">
+<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.61" provider-name="TierraMedia">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
     <import addon="script.module.simple.downloader" version="1.9.5"/>
@@ -17,9 +17,11 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>TV</summary>
-    <news>[COLOR lime][B] versión 0.0.60 [/B][/COLOR]
+    <news>[COLOR lime][B] versión 0.0.61 [/B][/COLOR]
         - [Interno] Soporte para el servidor H265 actualizado.
         - [Interno] Correcciones internas.
+        - [Interno] Disponible la selección de idioma y subtítulos en servidor Top.
+        - [Mensaje] Mensaje emergente del tiempo restante dependiendo del servidor.
     </news>
     <description>Visualiza el contenido de la nube, series, películas.</description>
     <disclaimer>[B][COLOR red]Todo el contenido disponible en este Addon esta sacado de servidores gratuitos, disponible en la red para todos los usuarios.[/B][/COLOR]</disclaimer>
