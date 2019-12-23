@@ -97,7 +97,7 @@ Detalles sobre http://taifxx.github.io/xxtrep</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.68" provider-name="TierraMedia">
+<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.69" provider-name="TierraMedia">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
     <import addon="script.module.simple.downloader" version="1.9.5"/>
@@ -115,7 +115,7 @@ Detalles sobre http://taifxx.github.io/xxtrep</description>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>TV</summary>
-    <news>[COLOR lime][B] versión 0.0.68 [/B][/COLOR]
+    <news>[COLOR lime][B] versión 0.0.69 [/B][/COLOR]
         - [Interno] Añadidos servidores nuevos.
     </news>
     <description>Visualiza el contenido de la nube, series, películas.</description>
