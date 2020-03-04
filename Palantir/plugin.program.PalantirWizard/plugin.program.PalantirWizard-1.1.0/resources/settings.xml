@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Opciones del Wizard">
+		<setting type="lsep" label="Wizard Actual:"/>
+		<setting id="buildname" type="text" label="Wizard Instalado: " enable="false" default=""/>
+		<setting id="buildversion" type="text" label="Version Instalada: " enable="false" default=""/>
+		<setting id="buildtheme" type="text" label="Tema Instalado: " enable="false" default=""/>
+		<setting id="latestversion" type="text" label="Version: " enable="false" default=""/>
+		<setting id="lastbuildcheck" type="text" label="Fecha de la Version: " enable="false" default=""/>
+		<setting id="disableupdate" type="bool" label="Deshabilitar notificacion de actualizacion" default="false"/>
+		<setting id="installmethod" type="enum" label="Que hacer despues de la instalacion?" values="Pregunta siempre|Actualizar perfil|Forzar Cierre" enable="!eq(-4,false)"/>
+		<setting type="lsep" label="Mostrar Wizard:"/>
+		<setting id="show15" type="bool" label="Mostrar Isengard (v15.0) y versiones inferiores" default="true"/>
+		<setting id="show16" type="bool" label="Mostrar Jarvis(v16.0)" default="true"/>
+		<setting id="show17" type="bool" label="Mostrar Krypton(v17.0)" default="true"/>
+		<setting id="show18" type="bool" label="Mostrar Leia(v18.0)" default="true"/>
+		<setting id="seperate" type="bool" label="No separe la version base" default="false"/>
+		<setting id="installed" type="bool" label="Wizard Instalado" visible="false" default="false" />
+		<setting id="extract" type="text" label="Wizard  %" visible="false" default="100" />
+		<setting id="errors" type="text" label="Error" visible="false" default="" />
+		<setting id="defaultskin" type="text" label="Skin: " enable="false" default="" visible="false"/>
+		<setting id="defaultskinname" type="text" label="Skin Nombre: " enable="false" default="" visible="false"/>
+		<setting id="defaultskinignore" type="bool" label="Ignore default skin check:" enable="false" default="false" visible="false"/>
+		<setting id="default.enablerssfeeds" type="text" label="Default lookandfeel.enablerssfeeds:" enable="false" default="" visible="false"/>
+		<setting id="default.font" type="text" label="Default lookandfeel.font:" enable="false" default="" visible="false"/>
+		<setting id="default.rssedit" type="text" label="Default lookandfeel.rssedit:" enable="false" default="" visible="false"/>
+		<setting id="default.skincolors" type="text" label="Default lookandfeel.skincolors:" enable="false" default="" visible="false"/>
+		<setting id="default.skintheme" type="text" label="Default lookandfeel.skintheme:" enable="false" default="" visible="false"/>
+		<setting id="default.skinzoom" type="text" label="Default lookandfeel.skinzoom:" enable="false" default="" visible="false"/>
+		<setting id="default.soundskin" type="text" label="Default lookandfeel.soundskin:" enable="false" default="" visible="false"/>
+		<setting id="default.startupwindow" type="text" label="Default lookandfeel.startupwindow:" enable="false" default="" visible="false"/>
+		<setting id="default.stereostrength" type="text" label="Default lookandfeel.stereostrength:" enable="false" default="" visible="false"/>
+		<setting id="default.addonupdate" type="text" label="Default general.addonupdate:" enable="false" default="" visible="false"/>
+		<setting id="pvrclient" type="text" label="Enabled PVR:" enable="false" default="" visible="false"/>
+	</category>
+
+	<category label="Herramientas">
+		<setting type="lsep" label="Cargar registro: "/>
+		<setting id="email" type="text" label="E-Mail" />
+		<setting id="oldlog" type="bool" label="Incluye Kodi.Old.Log" default="false"/>
+		<setting id="wizlog" type="bool" label="Incluye Wizard Logs" default="false"/>
+		<setting id="crashlog" type="bool" label="Incluye Kodi Crash Logs" default="false"/>
+		<setting type="lsep" label="Menu : "/>
+		<setting id="showmaint" type="bool" label="Mostrar todas las secciones de mantenimiento" default="false"/>
+		<setting type="lsep" label="Ubicacion de respaldo: "/>
+		<setting id="path" type="folder" label="Elija la ubicacion de almacenamiento de respaldo" default=""/>
+		<setting type="lsep" label="Auto Limpiar al Iniciar:"/>
+		<setting id="autoclean" type="bool" label="Habilitar limpieza automatica" default="true"/>
+		<setting id="clearcache" type="bool" label="Borrar cache en el inicio" default="true" enable="!eq(-1,false)"/>
+		<setting id="clearpackages" type="bool" label="Borrar Packages en el inicio" default="true" enable="!eq(-2,false)"/>
+		<setting id="clearthumbs" type="bool" label="Borrar Thumbnails en el inicio" default="true" enable="!eq(-3,false)"/>
+		<setting id="autocleanfeq" type="enum" label="Con que frecuencia le gustaria limpiar?" values="Siempre|Diario|Cada 3 dias|Semanalmente" enable="!eq(-4,false)"/>
+		<setting id="nextautocleanup" type="text" label="Siguiente limpieza automatica: " enable="false" visible="false" default=""/>
+		<setting type="lsep" label="limpiar Video Cache:"/>
+		<setting id="includevideo" type="bool" label="Incluye Video Addons en Limpiar Cache: " default="true"/>
+		<setting id="includeall" type="bool" label="Incluye Todos los Addons: " default="true" enable="!eq(-1,false)" visible="!eq(-1,false)"/>
+	</category>
+
+	<category label="Instalar Ajustes">
+		<setting type="lsep" label="Mantener la configuracin al instalar el Wizard:"/>
+		<setting id="keepfavourites" type="bool" label="Mantener mis favoritos" default="false"/>
+		<setting id="keepsources" type="bool" label="Conserva mis fuentes" default="false"/>
+		<setting id="keepprofiles" type="bool" label="Mantener mis perfiles" default="false"/>
+		<setting id="keepadvanced" type="bool" label="Mantener mi AdvancedSettings.xml" default="false"/>
+		<setting id="keeprepos" type="bool" label="Mantener mis repositorios " default="false"/>
+		<setting id="keepsuper" type="bool" label="mantener Super Favourites" default="false"/>
+		<setting id="keepwhitelist" type="bool" label="Mantener complementos de mi lista blanca" default="false"/>
+		<setting type="lsep" label="Soporte de asistente de terceros:"/>
+		<setting id="enable3rd" type="bool" label="Habilitar asistentes de terceros" default="false"/>
+		<setting id="wizard1name" type="text" label="Wizard 1 Nombre: " enable="true" visible="!eq(-1,false)" default=""/>
+		<setting id="wizard1url" type="text" label="Wizard 1 URL: " enable="true" visible="!eq(-2,false)" default=""/>
+		<setting id="wizard2name" type="text" label="Wizard 2 Nombre: " enable="true" visible="!eq(-3,false)" default=""/>
+		<setting id="wizard2url" type="text" label="Wizard 2 URL: " enable="true" visible="!eq(-4,false)" default=""/>
+		<setting id="wizard3name" type="text" label="Wizard 3 Nombre: " enable="true" visible="!eq(-5,false)" default=""/>
+		<setting id="wizard3url" type="text" label="Wizard 3 URL: " enable="true" visible="!eq(-6,false)" default=""/>
+	</category>
+	
+	<category label="Configuraciones diversas">
+		<setting id="developer" type="bool" label="Mostrar menu de desarrollador: " enable="true" default=""/>
+		<setting id="adult" type="bool" label="Mostrar complementos para adultos: " enable="true" default="false"/>
+		<setting id="auto-view" type="bool" label="Habilitar vista automatica" default="true"/>
+		<setting id="viewType" type="number" label="Tipo de vista" default="50" enable="!eq(-1,false)"/>
+		<setting type="lsep" label="Ventana de notificacion en el inicio:"/>
+		<setting id="notify" type="bool" label="Deshabilitar notificaciones al inicio" />
+		<setting id="noteid" type="text" label="Ultima notificacion" visible="false" />
+		<setting id="notedismiss" type="bool" label="Descartar o recordarme mas tarde" visible="false" />
+	</category>
+
+	<category label="Configuracin de registro">
+		<setting type="lsep" label="Registro de eventos en el asistente:"/>
+		<setting id="addon_debug" type="bool" label="Habilitar la depuracion de complementos: " enable="true" default="true"/>
+		<setting type="lsep" visible="!eq(-1,false)" label="Nivel 0: Sin registro"/>
+		<setting type="lsep" visible="!eq(-2,false)" label="Nivel 1: Registro normal"/>
+		<setting type="lsep" visible="!eq(-3,false)" label="Nivel 2: Registro completo"/>
+		<setting id="debuglevel" type="enum" label="Que nivel le gustaria iniciar sesión?" visible="!eq(-4,false)" enable="!eq(-1,false)" values="Nivel 0|Nivel 1|Nivel 2" default="2"/>
+		<setting id="wizardlog" type="bool" label="Habilitar escritura en Wizard.Log: " visible="!eq(-5,false)" enable="true" default="true"/>
+		<setting id="autocleanwiz" type="bool" label="Asistente de limpieza automatica en Wizard.Log: " visible="!eq(-6,false)" enable="!eq(-1,false)" default="true"/>
+		<setting id="wizlogcleanby" type="enum" label="Como le gustaria limpiar el asistente de registro?" visible="!eq(-1,false)" values="Por dias|Por Capacidad|Por lineas" default="1"/>
+		<setting id="wizlogcleandays" type="enum" label="Mantenga cuantos dias el wizard.log?" visible="eq(-1,0)+!eq(-2,false)" values="1|2|3|7" default="2"/>
+		<setting id="wizlogcleansize" type="enum" label="Capacidad Maxima del archivo para wizard.log?" visible="eq(-2,1)+!eq(-3,false)" values="100 KB|200 KB|300 KB|400 KB|500 KB|1 MB" default="1"/>
+		<setting id="wizlogcleanlines" type="enum" label="Mantenga el numero de lineas de wizard.log?" visible="eq(-3,2)+!eq(-4,false)" values="100|200|300|400|500" default="2"/>
+		<setting id="nextcleandate" type="text" label="Proximo registro de Wizard Wizard limpiado:" visible="false" default=""/>
+	</category>
+</settings>
