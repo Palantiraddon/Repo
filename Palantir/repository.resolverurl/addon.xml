@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.resolverurl" name="[B][COLOR lime]Resolverurl repo[/COLOR][/B]" version="0.0.2" provider-name="resolver">
+	<extension point="xbmc.addon.repository" name="Resolverurl repo">
+
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+		</dir>	
+
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+		</dir>
+
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
