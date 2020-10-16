@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <!-- Settings Menu-->
+    <string id="30001">Accounts</string>
+    <string id="30000">Downloads</string>
+    <string id="30002">Inteface</string>
+    <string id="30003">Backup</string>
+    <string id="30004">Paths</string>
+	<string id="30005">Cache</string>
+
+    <!-- Settings Content-->
+    <string id="32000">UserName:</string>
+    <string id="32001">Password:</string>
+    <string id="32002">Validate credentials</string>
+    <string id="31000">Max number of downloads</string>
+    <string id="31001">Max size for downloads path</string>
+    <string id="31002">Download Path</string>
+    <string id="31003">Validate Download Config</string>
+    <string id="31004">Clean Temp Data</string>
+    <string id="31103">1GB</string>
+    <string id="31104">2GB</string>
+    <string id="31105">3GB</string>
+    <string id="31106">5GB</string>
+    <string id="31107">10GB</string>
+    <string id="31108">20GB</string>
+    <string id="31109">Unlimited</string>
+    <string id="31110">Download Options</string>
+
+    <string id="33000">Menu Color</string>
+    <string id="33001">Alterante Season Color </string>
+    <string id="33002">Episode Color</string>
+    <string id="33003">Movie Color</string>
+    <string id="33004">Quality Color</string>
+    <string id="33005">Audio Color</string>
+    <string id="33006">Category Color</string>
+    <string id="33007">Date Color</string>
+    <string id="33008">Colors</string>
+    <string id="33009">Views</string>
+    <string id="33011">Download</string>
+    <string id="33012">Favorites</string>
+    <string id="33013">Movies</string>
+    <string id="33015">Lists</string>
+    <string id="33016">Series</string>
+    <string id="33014">Episodes</string>
+    <string id="33017">Server Color</string>
+    <string id="33018">Enable Custom Views</string>
+
+    <string id="34000">Create Backup</string>
+    <string id="34001">Restore backup</string>
+    <string id="34002">Folder to store the copy</string>
+    <string id="34003">File to restore</string>
+    <string id="34004">Favorite Path</string>
+
+</strings>
