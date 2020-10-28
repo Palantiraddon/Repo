@@ -1,0 +1,989 @@
+# Kodi Media Center language file
+# Addon Name: Palantir
+# Addon id: plugin.video.palantir
+# Addon Provider: TierraMedia
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: @TierraMedia\n"
+"POT-Creation-Date: 2020-09-21 11:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: TierraMedia\n"
+"Language-Team: Palantir\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+# Settings
+
+msgctxt "#30000"
+msgid "Interface"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Icon pack"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Colors"
+msgstr ""
+
+msgctxt "#30200"
+msgid "[COLOR aliceblue]aliceblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30201"
+msgid "[COLOR antiquewhite]antiquewhite[/COLOR]"
+msgstr ""
+
+msgctxt "#30202"
+msgid "[COLOR aqua]aqua[/COLOR]"
+msgstr ""
+
+msgctxt "#30203"
+msgid "[COLOR aquamarine]aquamarine[/COLOR]"
+msgstr ""
+
+msgctxt "#30204"
+msgid "[COLOR azure]azure[/COLOR]"
+msgstr ""
+
+msgctxt "#30205"
+msgid "[COLOR beige]beige[/COLOR]"
+msgstr ""
+
+msgctxt "#30206"
+msgid "[COLOR bisque]bisque[/COLOR]"
+msgstr ""
+
+msgctxt "#30207"
+msgid "[COLOR black]black[/COLOR]"
+msgstr ""
+
+msgctxt "#30208"
+msgid "[COLOR blanchedalmond]blanchedalmond[/COLOR]"
+msgstr ""
+
+msgctxt "#30209"
+msgid "[COLOR blue]blue[/COLOR]"
+msgstr ""
+
+msgctxt "#30210"
+msgid "[COLOR blueviolet]blueviolet[/COLOR]"
+msgstr ""
+
+msgctxt "#30211"
+msgid "[COLOR brown]brown[/COLOR]"
+msgstr ""
+
+msgctxt "#30212"
+msgid "[COLOR burlywood]burlywood[/COLOR]"
+msgstr ""
+
+msgctxt "#30213"
+msgid "[COLOR cadetblue]cadetblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30214"
+msgid "[COLOR chartreuse]chartreuse[/COLOR]"
+msgstr ""
+
+msgctxt "#30215"
+msgid "[COLOR chocolate]chocolate[/COLOR]"
+msgstr ""
+
+msgctxt "#30216"
+msgid "[COLOR coral]coral[/COLOR]"
+msgstr ""
+
+msgctxt "#30217"
+msgid "[COLOR cornflowerblue]cornflowerblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30218"
+msgid "[COLOR cornsilk]cornsilk[/COLOR]"
+msgstr ""
+
+msgctxt "#30219"
+msgid "[COLOR crimson]crimson[/COLOR]"
+msgstr ""
+
+msgctxt "#30220"
+msgid "[COLOR cyan]cyan[/COLOR]"
+msgstr ""
+
+msgctxt "#30221"
+msgid "[COLOR darkblue]darkblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30222"
+msgid "[COLOR darkcyan]darkcyan[/COLOR]"
+msgstr ""
+
+msgctxt "#30223"
+msgid "[COLOR darkgoldenrod]darkgoldenrod[/COLOR]"
+msgstr ""
+
+msgctxt "#30224"
+msgid "[COLOR darkgray]darkgray[/COLOR]"
+msgstr ""
+
+msgctxt "#30225"
+msgid "[COLOR darkgreen]darkgreen[/COLOR]"
+msgstr ""
+
+msgctxt "#30226"
+msgid "[COLOR darkgrey]darkgrey[/COLOR]"
+msgstr ""
+
+msgctxt "#30227"
+msgid "[COLOR darkkhaki]darkkhaki[/COLOR]"
+msgstr ""
+
+msgctxt "#30228"
+msgid "[COLOR darkmagenta]darkmagenta[/COLOR]"
+msgstr ""
+
+msgctxt "#30229"
+msgid "[COLOR darkolivegreen]darkolivegreen[/COLOR]"
+msgstr ""
+
+msgctxt "#30230"
+msgid "[COLOR darkorange]darkorange[/COLOR]"
+msgstr ""
+
+msgctxt "#30231"
+msgid "[COLOR darkorchid]darkorchid[/COLOR]"
+msgstr ""
+
+msgctxt "#30232"
+msgid "[COLOR darkred]darkred[/COLOR]"
+msgstr ""
+
+msgctxt "#30233"
+msgid "[COLOR darksalmon]darksalmon[/COLOR]"
+msgstr ""
+
+msgctxt "#30234"
+msgid "[COLOR darkseagreen]darkseagreen[/COLOR]"
+msgstr ""
+
+msgctxt "#30235"
+msgid "[COLOR darkslateblue]darkslateblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30236"
+msgid "[COLOR darkslategray]darkslategray[/COLOR]"
+msgstr ""
+
+msgctxt "#30237"
+msgid "[COLOR darkslategrey]darkslategrey[/COLOR]"
+msgstr ""
+
+msgctxt "#30238"
+msgid "[COLOR darkturquoise]darkturquoise[/COLOR]"
+msgstr ""
+
+msgctxt "#30239"
+msgid "[COLOR darkviolet]darkviolet[/COLOR]"
+msgstr ""
+
+msgctxt "#30240"
+msgid "[COLOR deeppink]deeppink[/COLOR]"
+msgstr ""
+
+msgctxt "#30241"
+msgid "[COLOR deepskyblue]deepskyblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30242"
+msgid "[COLOR dimgray]dimgray[/COLOR]"
+msgstr ""
+
+msgctxt "#30243"
+msgid "[COLOR dimgrey]dimgrey[/COLOR]"
+msgstr ""
+
+msgctxt "#30244"
+msgid "[COLOR dodgerblue]dodgerblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30245"
+msgid "[COLOR firebrick]firebrick[/COLOR]"
+msgstr ""
+
+msgctxt "#30246"
+msgid "[COLOR floralwhite]floralwhite[/COLOR]"
+msgstr ""
+
+msgctxt "#30247"
+msgid "[COLOR forestgreen]forestgreen[/COLOR]"
+msgstr ""
+
+msgctxt "#30248"
+msgid "[COLOR fuchsia]fuchsia[/COLOR]"
+msgstr ""
+
+msgctxt "#30249"
+msgid "[COLOR gainsboro]gainsboro[/COLOR]"
+msgstr ""
+
+msgctxt "#30250"
+msgid "[COLOR ghostwhite]ghostwhite[/COLOR]"
+msgstr ""
+
+msgctxt "#30251"
+msgid "[COLOR gold]gold[/COLOR]"
+msgstr ""
+
+msgctxt "#30252"
+msgid "[COLOR goldenrod]goldenrod[/COLOR]"
+msgstr ""
+
+msgctxt "#30253"
+msgid "[COLOR gray]gray[/COLOR]"
+msgstr ""
+
+msgctxt "#30254"
+msgid "[COLOR green]green[/COLOR]"
+msgstr ""
+
+msgctxt "#30255"
+msgid "[COLOR greenyellow]greenyellow[/COLOR]"
+msgstr ""
+
+msgctxt "#30256"
+msgid "[COLOR grey]grey[/COLOR]"
+msgstr ""
+
+msgctxt "#30257"
+msgid "[COLOR honeydew]honeydew[/COLOR]"
+msgstr ""
+
+msgctxt "#30258"
+msgid "[COLOR hotpink]hotpink[/COLOR]"
+msgstr ""
+
+msgctxt "#30259"
+msgid "[COLOR indianred]indianred[/COLOR]"
+msgstr ""
+
+msgctxt "#30260"
+msgid "[COLOR indigo]indigo[/COLOR]"
+msgstr ""
+
+msgctxt "#30261"
+msgid "[COLOR ivory]ivory[/COLOR]"
+msgstr ""
+
+msgctxt "#30262"
+msgid "[COLOR khaki]khaki[/COLOR]"
+msgstr ""
+
+msgctxt "#30263"
+msgid "[COLOR lavender]lavender[/COLOR]"
+msgstr ""
+
+msgctxt "#30264"
+msgid "[COLOR lavenderblush]lavenderblush[/COLOR]"
+msgstr ""
+
+msgctxt "#30265"
+msgid "[COLOR lawngreen]lawngreen[/COLOR]"
+msgstr ""
+
+msgctxt "#30266"
+msgid "[COLOR lemonchiffon]lemonchiffon[/COLOR]"
+msgstr ""
+
+msgctxt "#30267"
+msgid "[COLOR lightblue]lightblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30268"
+msgid "[COLOR lightcoral]lightcoral[/COLOR]"
+msgstr ""
+
+msgctxt "#30269"
+msgid "[COLOR lightcyan]lightcyan[/COLOR]"
+msgstr ""
+
+msgctxt "#30270"
+msgid "[COLOR lightgoldenrodyellow]lightgoldenrodyellow[/COLOR]"
+msgstr ""
+
+msgctxt "#30271"
+msgid "[COLOR lightgray]lightgray[/COLOR]"
+msgstr ""
+
+msgctxt "#30272"
+msgid "[COLOR lightgreen]lightgreen[/COLOR]"
+msgstr ""
+
+msgctxt "#30273"
+msgid "[COLOR lightgrey]lightgrey[/COLOR]"
+msgstr ""
+
+msgctxt "#30274"
+msgid "[COLOR lightpink]lightpink[/COLOR]"
+msgstr ""
+
+msgctxt "#30275"
+msgid "[COLOR lightsalmon]lightsalmon[/COLOR]"
+msgstr ""
+
+msgctxt "#30276"
+msgid "[COLOR lightseagreen]lightseagreen[/COLOR]"
+msgstr ""
+
+msgctxt "#30277"
+msgid "[COLOR lightskyblue]lightskyblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30278"
+msgid "[COLOR lightslategray]lightslategray[/COLOR]"
+msgstr ""
+
+msgctxt "#30279"
+msgid "[COLOR lightslategrey]lightslategrey[/COLOR]"
+msgstr ""
+
+msgctxt "#30280"
+msgid "[COLOR lightsteelblue]lightsteelblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30281"
+msgid "[COLOR lightyellow]lightyellow[/COLOR]"
+msgstr ""
+
+msgctxt "#30282"
+msgid "[COLOR lime]lime[/COLOR]"
+msgstr ""
+
+msgctxt "#30283"
+msgid "[COLOR limegreen]limegreen[/COLOR]"
+msgstr ""
+
+msgctxt "#30284"
+msgid "[COLOR linen]linen[/COLOR]"
+msgstr ""
+
+msgctxt "#30285"
+msgid "[COLOR magenta]magenta[/COLOR]"
+msgstr ""
+
+msgctxt "#30286"
+msgid "[COLOR maroon]maroon[/COLOR]"
+msgstr ""
+
+msgctxt "#30287"
+msgid "[COLOR mediumaquamarine]mediumaquamarine[/COLOR]"
+msgstr ""
+
+msgctxt "#30288"
+msgid "[COLOR mediumblue]mediumblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30289"
+msgid "[COLOR mediumorchid]mediumorchid[/COLOR]"
+msgstr ""
+
+msgctxt "#30290"
+msgid "[COLOR mediumpurple]mediumpurple[/COLOR]"
+msgstr ""
+
+msgctxt "#30291"
+msgid "[COLOR mediumseagreen]mediumseagreen[/COLOR]"
+msgstr ""
+
+msgctxt "#30292"
+msgid "[COLOR mediumslateblue]mediumslateblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30293"
+msgid "[COLOR mediumspringgreen]mediumspringgreen[/COLOR]"
+msgstr ""
+
+msgctxt "#30294"
+msgid "[COLOR mediumturquoise]mediumturquoise[/COLOR]"
+msgstr ""
+
+msgctxt "#30295"
+msgid "[COLOR mediumvioletred]mediumvioletred[/COLOR]"
+msgstr ""
+
+msgctxt "#30296"
+msgid "[COLOR midnightblue]midnightblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30297"
+msgid "[COLOR mintcream]mintcream[/COLOR]"
+msgstr ""
+
+msgctxt "#30298"
+msgid "[COLOR mistyrose]mistyrose[/COLOR]"
+msgstr ""
+
+msgctxt "#30299"
+msgid "[COLOR moccasin]moccasin[/COLOR]"
+msgstr ""
+
+msgctxt "#30300"
+msgid "[COLOR navajowhite]navajowhite[/COLOR]"
+msgstr ""
+
+msgctxt "#30301"
+msgid "[COLOR navy]navy[/COLOR]"
+msgstr ""
+
+msgctxt "#30302"
+msgid "[COLOR none]none[/COLOR]"
+msgstr ""
+
+msgctxt "#30303"
+msgid "[COLOR oldlace]oldlace[/COLOR]"
+msgstr ""
+
+msgctxt "#30304"
+msgid "[COLOR olive]olive[/COLOR]"
+msgstr ""
+
+msgctxt "#30305"
+msgid "[COLOR olivedrab]olivedrab[/COLOR]"
+msgstr ""
+
+msgctxt "#30306"
+msgid "[COLOR orange]orange[/COLOR]"
+msgstr ""
+
+msgctxt "#30307"
+msgid "[COLOR orangered]orangered[/COLOR]"
+msgstr ""
+
+msgctxt "#30308"
+msgid "[COLOR orchid]orchid[/COLOR]"
+msgstr ""
+
+msgctxt "#30309"
+msgid "[COLOR palegoldenrod]palegoldenrod[/COLOR]"
+msgstr ""
+
+msgctxt "#30310"
+msgid "[COLOR palegreen]palegreen[/COLOR]"
+msgstr ""
+
+msgctxt "#30311"
+msgid "[COLOR paleturquoise]paleturquoise[/COLOR]"
+msgstr ""
+
+msgctxt "#30312"
+msgid "[COLOR palevioletred]palevioletred[/COLOR]"
+msgstr ""
+
+msgctxt "#30313"
+msgid "[COLOR papayawhip]papayawhip[/COLOR]"
+msgstr ""
+
+msgctxt "#30314"
+msgid "[COLOR peachpuff]peachpuff[/COLOR]"
+msgstr ""
+
+msgctxt "#30315"
+msgid "[COLOR peru]peru[/COLOR]"
+msgstr ""
+
+msgctxt "#30316"
+msgid "[COLOR pink]pink[/COLOR]"
+msgstr ""
+
+msgctxt "#30317"
+msgid "[COLOR plum]plum[/COLOR]"
+msgstr ""
+
+msgctxt "#30318"
+msgid "[COLOR powderblue]powderblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30319"
+msgid "[COLOR purple]purple[/COLOR]"
+msgstr ""
+
+msgctxt "#30320"
+msgid "[COLOR red]red[/COLOR]"
+msgstr ""
+
+msgctxt "#30321"
+msgid "[COLOR rosybrown]rosybrown[/COLOR]"
+msgstr ""
+
+msgctxt "#30322"
+msgid "[COLOR royalblue]royalblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30323"
+msgid "[COLOR saddlebrown]saddlebrown[/COLOR]"
+msgstr ""
+
+msgctxt "#30324"
+msgid "[COLOR salmon]salmon[/COLOR]"
+msgstr ""
+
+msgctxt "#30325"
+msgid "[COLOR sandybrown]sandybrown[/COLOR]"
+msgstr ""
+
+msgctxt "#30326"
+msgid "[COLOR seagreen]seagreen[/COLOR]"
+msgstr ""
+
+msgctxt "#30327"
+msgid "[COLOR seashell]seashell[/COLOR]"
+msgstr ""
+
+msgctxt "#30328"
+msgid "[COLOR sienna]sienna[/COLOR]"
+msgstr ""
+
+msgctxt "#30329"
+msgid "[COLOR silver]silver[/COLOR]"
+msgstr ""
+
+msgctxt "#30330"
+msgid "[COLOR skyblue]skyblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30331"
+msgid "[COLOR slateblue]slateblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30332"
+msgid "[COLOR slategray]slategray[/COLOR]"
+msgstr ""
+
+msgctxt "#30333"
+msgid "[COLOR slategrey]slategrey[/COLOR]"
+msgstr ""
+
+msgctxt "#30334"
+msgid "[COLOR snow]snow[/COLOR]"
+msgstr ""
+
+msgctxt "#30335"
+msgid "[COLOR springgreen]springgreen[/COLOR]"
+msgstr ""
+
+msgctxt "#30336"
+msgid "[COLOR steelblue]steelblue[/COLOR]"
+msgstr ""
+
+msgctxt "#30337"
+msgid "[COLOR tan]tan[/COLOR]"
+msgstr ""
+
+msgctxt "#30338"
+msgid "[COLOR teal]teal[/COLOR]"
+msgstr ""
+
+msgctxt "#30339"
+msgid "[COLOR thistle]thistle[/COLOR]"
+msgstr ""
+
+msgctxt "#30340"
+msgid "[COLOR transparent]transparent[/COLOR]"
+msgstr ""
+
+msgctxt "#30341"
+msgid "[COLOR turquoise]turquoise[/COLOR]"
+msgstr ""
+
+msgctxt "#30342"
+msgid "[COLOR violet]violet[/COLOR]"
+msgstr ""
+
+msgctxt "#30343"
+msgid "[COLOR wheat]wheat[/COLOR]"
+msgstr ""
+
+msgctxt "#30344"
+msgid "[COLOR white]white[/COLOR]"
+msgstr ""
+
+msgctxt "#30345"
+msgid "[COLOR whitesmoke]whitesmoke[/COLOR]"
+msgstr ""
+
+msgctxt "#30346"
+msgid "[COLOR yellow]yellow[/COLOR]"
+msgstr ""
+
+msgctxt "#30347"
+msgid "[COLOR yellowgreen]yellowgreen[/COLOR]"
+msgstr ""
+
+msgctxt "#30348"
+msgid "Nekko"
+msgstr ""
+
+msgctxt "#30349"
+msgid "Abstract"
+msgstr ""
+
+msgctxt "#30350"
+msgid "TierraMedia"
+msgstr ""
+
+msgctxt "#30351"
+msgid "Bojbit"
+msgstr ""
+
+msgctxt "#30352"
+msgid "Extra1"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Color elements of the Menu"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Color title of the Menu"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Color of the title"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Color of the quality"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Color of the audio"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Color of the date"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Color of the Server"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Accounts"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Top/Uptobox server"
+msgstr ""
+
+msgctxt "#30012"
+msgid "User"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Password"
+msgstr ""
+
+# empty strings from id 30014 to 30020
+
+msgctxt "#30020"
+msgid "More..."
+msgstr ""
+
+msgctxt "#30021"
+msgid "To mark like seen"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Never"
+msgstr ""
+
+msgctxt "#30023"
+msgid "When viewing 80% of the video"
+msgstr ""
+
+msgctxt "#30024"
+msgid "On having opened the video"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Maintenance"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Reset Cache ResolveUrl"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Reset Cache Extendedinfo"
+msgstr ""
+
+# empty strings from id 30028 to 30030
+
+# Palantir
+
+msgctxt "#30031"
+msgid "more..."
+msgstr ""
+
+msgctxt "#30032"
+msgid "Search..."
+msgstr ""
+
+msgctxt "#30033"
+msgid "No results found for"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Watch on youtube"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Server"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Select a link"
+msgstr ""
+
+msgctxt "#30037"
+msgid "To reproduce files MPD you must install inputstream.adaptive"
+msgstr ""
+
+msgctxt "#30038"
+msgid "This video cannot be played. We'll try to fix it as soon as possible."
+msgstr ""
+
+msgctxt "#30039"
+msgid "Remove from Favorites"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Favorites"
+msgstr ""
+
+msgctxt "#30041"
+msgid "There is not %s of %s that to show"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Resolving"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Action canceled"
+msgstr ""
+
+msgctxt "#30044"
+msgid "The video has been removed"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "#30046"
+msgid "It is necessary to have the GDrive addon configured correctly."
+msgstr ""
+
+msgctxt "#30047"
+msgid "Resolve not available"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Changing icons will take effect when you go out and re-enter"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Mark as seen"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Clear as seen"
+msgstr ""
+
+msgctxt "#30051"
+msgid "We're updating the list of movies and series for you."
+msgstr ""
+
+msgctxt "#30052"
+msgid "Vers. %s (More of %s different contents)"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Error, We were unable to update the contents. Restart Kodi and try again."
+msgstr ""
+
+msgctxt "#30054"
+msgid "Updating external dependencies..."
+msgstr ""
+
+msgctxt "#30055"
+msgid "One moment, please."
+msgstr ""
+
+# empty strings from id 30055 to 30099
+
+# moria
+
+msgctxt "#30100"
+msgid "Movies"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Series"
+msgstr ""
+
+msgctxt "#30102"
+msgid "Cartoon"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Anime"
+msgstr ""
+
+msgctxt "#30104"
+msgid "Music"
+msgstr ""
+
+msgctxt "#30105"
+msgid "Documentaries"
+msgstr ""
+
+msgctxt "#30106"
+msgid "News"
+msgstr ""
+
+msgctxt "#30107"
+msgid "Latest added"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Recommended"
+msgstr ""
+
+msgctxt "#30109"
+msgid "More views"
+msgstr ""
+
+msgctxt "#30110"
+msgid "More views this month"
+msgstr ""
+
+msgctxt "#30111"
+msgid "Special"
+msgstr ""
+
+msgctxt "#30112"
+msgid "search"
+msgstr ""
+
+msgctxt "#30113"
+msgid "For title"
+msgstr ""
+
+msgctxt "#30114"
+msgid "For genres"
+msgstr ""
+
+msgctxt "#30115"
+msgid "For alphabetical order"
+msgstr ""
+
+msgctxt "#30116"
+msgid "Per year"
+msgstr ""
+
+msgctxt "#30117"
+msgid "For quality"
+msgstr ""
+
+msgctxt "#30118"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30119"
+msgid "For sagas"
+msgstr ""
+
+msgctxt "#30120"
+msgid "New series"
+msgstr ""
+
+msgctxt "#30122"
+msgid "More views"
+msgstr ""
+
+msgctxt "#30124"
+msgid "Latest updates "
+msgstr ""
+
+msgctxt "#30125"
+msgid "Classic"
+msgstr ""
+
+msgctxt "#30126"
+msgid "Movies of Cartoon"
+msgstr ""
+
+msgctxt "#30127"
+msgid "Series of Cartoon"
+msgstr ""
+
+msgctxt "#30128"
+msgid "Special and collections"
+msgstr ""
+
+msgctxt "#30129"
+msgid "Search by title"
+msgstr ""
+
+msgctxt "#30130"
+msgid "Anime Movies"
+msgstr ""
+
+msgctxt "#30131"
+msgid "Serie Anime"
+msgstr ""
+
+msgctxt "#30132"
+msgid "Documentary Films"
+msgstr ""
+
+msgctxt "#30133"
+msgid "Documentary Series"
+msgstr ""
+
+msgctxt "#30134"
+msgid "Favorite movies"
+msgstr ""
+
+msgctxt "#30135"
+msgid "Favorite series"
+msgstr ""
+
+msgctxt "#30136"
+msgid "Favorite cartoon series"
+msgstr ""
+
+msgctxt "#30137"
+msgid "Favorite Cartoon Movies"
+msgstr ""
+
+msgctxt "#30138"
+msgid "Favorite documentary series"
+msgstr ""
+
+msgctxt "#30139"
+msgid "Favorite Documentary Films"
+msgstr ""
+
+msgctxt "#30140"
+msgid "Favorite Anime Movies"
+msgstr ""
+
+msgctxt "#30141"
+msgid "Favorite Anime Series"
+msgstr ""

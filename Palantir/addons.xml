@@ -1,40 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon
-	id="context.agregacontenido"
-	name="Agrega contenido"
-	version="0.0.11b"
-	provider-name="Adrian">
-  <requires>
-	<import addon="xbmc.python" version="2.25.0"/>
-  </requires>
-	<extension point="kodi.context.item">
-		<menu id="kodi.core.main">
-			<item library="default.py">
-				<label>$ADDON[context.agregacontenido 32000]</label>
-				<visible>Container.Content(tvshows)|Container.Content(movies)|Container.Content(musicvideos)|!IsEmpty(ListItem.Genre)</visible>
-			</item>
-			<item library="updater.py">
-				<label>$ADDON[context.agregacontenido 33000]</label>
-				<visible>Container.Content(tvshows)|Container.Content(movies)|Container.Content(musicvideos)|!IsEmpty(ListItem.Genre)</visible>
-			</item>
-      <item library="borrador.py">
-        <label>$ADDON[context.agregacontenido 34000]</label>
-        <visible>Container.Content(tvshows)|Container.Content(movies)|Container.Content(musicvideos)|!IsEmpty(ListItem.Genre)</visible>
-      </item>
-		</menu>
-	</extension>
-  <extension point="xbmc.service" library="service.py" />
-
-  <extension point="kodi.addon.metadata">
-    <platform>all</platform>
-    <summary lang="es">Agrega contenido generando un STRM</summary>
-    <description lang="es">Agrega peliculas y series a tu libreria de Kodi. Crea un STRM para cada contenido.</description>
-    <forum></forum>
-    <source></source>
-  </extension>
-</addon>
-
 <addon id="plugin.program.PalantirWizard" name="Wizard Palantir" version="1.1.0" provider-name="TierraMedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -118,7 +83,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.0.4" provider-name="TierraMedia">
+<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.0.10" provider-name="TierraMedia">
   <requires>
     <import addon="script.module.six" version="1.11.0"/>
     <import addon="script.module.resolveurl" version="5.0.00"/>
@@ -214,26 +179,6 @@
 		</assets>
 		<news></news>
 	</extension>
-</addon>
-
-<addon
-	id="script.cuentas.palantir"
-	name="Cuentas para palantir"
-	version="0.0.1"
-	provider-name="Tierramedia">
-  <requires>
-	<import addon="xbmc.python" version="2.25.0"/>
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-            <provides>executable</provides>
-  </extension>
-  <extension point="kodi.addon.metadata">
-    <platform>all</platform>
-    <summary lang="es">Cuentas premium para Palantir</summary>
-    <description lang="es">Cuentas premium para Palantir</description>
-    <forum></forum>
-    <source></source>
-  </extension>
 </addon>
 
 <addon id="script.extendedinfo" name="ExtendedInfo Script" version="5.6.1" provider-name="phil65 (Philipp Temminghoff)">

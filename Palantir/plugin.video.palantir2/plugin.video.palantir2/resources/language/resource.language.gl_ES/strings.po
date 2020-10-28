@@ -1,0 +1,379 @@
+# Kodi Media Center language file
+# Addon Name: Palantir
+# Addon id: plugin.video.palantir
+# Addon Provider: TierraMedia
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: @TierraMedia\n"
+"POT-Creation-Date: 2020-09-21 11:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: TierraMedia\n"
+"Language-Team: Palantir\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: gl_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+# Settings
+
+msgctxt "#30000"
+msgid "Interface"
+msgstr "Interface"
+
+msgctxt "#30001"
+msgid "Icon pack"
+msgstr "Paquete de iconos"
+
+msgctxt "#30002"
+msgid "Colors"
+msgstr "Cores"
+
+# no traslation strings from id 30200 to 30252
+
+msgctxt "#30003"
+msgid "Color elements of the Menu"
+msgstr "Cor elementos do Menu"
+
+msgctxt "#30004"
+msgid "Color title of the Menu"
+msgstr "Cor titulos do Menu"
+
+msgctxt "#30005"
+msgid "Color of the title"
+msgstr "Cor do título"
+
+msgctxt "#30006"
+msgid "Color of the quality"
+msgstr "Cor da calidade"
+
+msgctxt "#30007"
+msgid "Color of the audio"
+msgstr "Cor do audio"
+
+msgctxt "#30008"
+msgid "Color of the date"
+msgstr "Cor da data"
+
+msgctxt "#30009"
+msgid "Color of the Server"
+msgstr "Cor do servidor"
+
+msgctxt "#30010"
+msgid "Accounts"
+msgstr "Contas"
+
+msgctxt "#30011"
+msgid "Top/Uptobox server"
+msgstr "Servidor Top/Uptobox"
+
+msgctxt "#30012"
+msgid "User"
+msgstr "Usuario"
+
+msgctxt "#30013"
+msgid "Password"
+msgstr "Contrasinal"
+
+# empty strings from id 30014 to 30020
+
+msgctxt "#30020"
+msgid More..."
+msgstr "Máis..."
+
+msgctxt "#30021"
+msgid "To mark like seen"
+msgstr "Marcar como visto"
+
+msgctxt "#30022"
+msgid "Never"
+msgstr "Nunca"
+
+msgctxt "#30023"
+msgid "When viewing 80% of the video"
+msgstr "Ó ver o 80% do vídeo"
+
+msgctxt "#30024"
+msgid "On having opened the video"
+msgstr "Ó abrir o vídeo"
+
+msgctxt "#30025"
+msgid "Maintenance"
+msgstr "Mantemento"
+
+msgctxt "#30026"
+msgid "Reset Cache ResolveUrl"
+msgstr "Restablecer caché do ResolveUrl"
+
+msgctxt "#30027"
+msgid "Reset Cache Extendedinfo"
+msgstr "Restablecer caché do Extendedinfo"
+
+# empty strings from id 30028 to 30030
+
+# Palantir
+
+msgctxt "#30031"
+msgid "more..."
+msgstr "máis..."
+
+msgctxt "#30032"
+msgid "Search..."
+msgstr "Buscar..."
+
+msgctxt "#30033"
+msgid "No results found for"
+msgstr "Non se atoparon resultados para"
+
+msgctxt "#30034"
+msgid "Watch on youtube"
+msgstr "Ver en youtube"
+
+msgctxt "#30035"
+msgid "Server"
+msgstr "Servidor"
+
+msgctxt "#30036"
+msgid "Select a link"
+msgstr "Escolla un enlace"
+
+msgctxt "#30037"
+msgid "To reproduce files MPD you must install inputstream.adaptive"
+msgstr "Para reproducir arquivos MPD debes instalar inputstream.adaptive"
+
+msgctxt "#30038"
+msgid "This video cannot be played. We'll try to fix it as soon as possible."
+msgstr "Este vídeo non se pode reproducir. Intentaremos resolvelo canto antes."
+
+msgctxt "#30039"
+msgid "Remove from Favorites"
+msgstr "Quitar de Favoritos"
+
+msgctxt "#30040"
+msgid "Favorites"
+msgstr "Favoritos"
+
+msgctxt "#30041"
+msgid "There is not %s of %s that to show"
+msgstr "Non hai %s de %s que mostrar"
+
+msgctxt "#30042"
+msgid "Resolving"
+msgstr "Resolvendo"
+
+msgctxt "#30043"
+msgid "Action canceled"
+msgstr "Acción cancelada"
+
+msgctxt "#30044"
+msgid "The video has been removed"
+msgstr "O vídeo eliminouse"
+
+msgctxt "#30045"
+msgid "Unknown"
+msgstr "Descoñecido"
+
+msgctxt "#30046"
+msgid "It is necessary to have the GDrive addon configured correctly."
+msgstr "É preciso tener configurado o addon GDrive correctamente."
+
+msgctxt "#30047"
+msgid "Resolve not available"
+msgstr "Resolver non dispoñible"
+
+msgctxt "#30048"
+msgid "Changing icons will take effect when you go out and re-enter"
+msgstr "O cambio de iconos terá efecto cando saias e voltes a entrar a"
+
+msgctxt "#30049"
+msgid "Mark as seen"
+msgstr "Marcar como visto"
+
+msgctxt "#30050"
+msgid "Clear as seen"
+msgstr "Desmarcar como visto"
+
+msgctxt "#30051"
+msgid "We're updating the list of movies and series for you."
+msgstr "Estamos actualizando a lista das peliculas y series para ti."
+
+msgctxt "#30052"
+msgid "Vers. %s (More of %s different contents)"
+msgstr "Vers. %s (Máis de %s contidos diferentes)"
+
+msgctxt "#30053"
+msgid "Error, We were unable to update the contents. Restart Kodi and try again."
+msgstr "Erro, non puidemos actualizar os contidos. Reinicia Kodi y volta a tentalo."
+
+msgctxt "#30054"
+msgid "Updating external dependencies..."
+msgstr "Actualizando dependencias externas..."
+
+msgctxt "#30055"
+msgid "One moment, please."
+msgstr "Un momento por favor."
+
+# empty strings from id 30055 to 30099
+
+# moria
+
+msgctxt "#30100"
+msgid "Movies"
+msgstr "Películas"
+
+msgctxt "#30101"
+msgid "Series"
+msgstr "Series"
+
+msgctxt "#30102"
+msgid "Cartoon"
+msgstr "Debuxos"
+
+msgctxt "#30103"
+msgid "Anime"
+msgstr "Anime"
+
+msgctxt "#30104"
+msgid "Music"
+msgstr "Música"
+
+msgctxt "#30105"
+msgid "Documentaries"
+msgstr "Documentais"
+
+msgctxt "#30106"
+msgid "News"
+msgstr "Novidades"
+
+msgctxt "#30107"
+msgid "Latest added"
+msgstr "Últimas engadidas"
+
+msgctxt "#30108"
+msgid "Recommended"
+msgstr "Recomendadas"
+
+msgctxt "#30109"
+msgid "More views"
+msgstr "Máis vistas"
+
+msgctxt "#30110"
+msgid "More views this month"
+msgstr "Máis vistas este mes"
+
+msgctxt "#30111"
+msgid "Special"
+msgstr "Especiais"
+
+msgctxt "#30112"
+msgid "search"
+msgstr "Buscar"
+
+msgctxt "#30113"
+msgid "For title"
+msgstr "Por título"
+
+msgctxt "#30114"
+msgid "For genres"
+msgstr "Por xéneros"
+
+msgctxt "#30115"
+msgid "For alphabetical order"
+msgstr "Por orde alfabético"
+
+msgctxt "#30116"
+msgid "Per year"
+msgstr "Por ano"
+
+msgctxt "#30117"
+msgid "For quality"
+msgstr "Por calidade"
+
+msgctxt "#30118"
+msgid "Settings"
+msgstr "Axustes"
+
+msgctxt "#30119"
+msgid "For sagas"
+msgstr "Por sagas"
+
+msgctxt "#30120"
+msgid "New series"
+msgstr "Novas series"
+
+msgctxt "#30122"
+msgid "More views"
+msgstr "Máis vistas"
+
+msgctxt "#30124"
+msgid "More views this month"
+msgstr "Últimas actualizacións"
+
+msgctxt "#30125"
+msgid "Classic"
+msgstr "Clásicas"
+
+msgctxt "#30126"
+msgid "Movies of Cartoon"
+msgstr "Películas de Debuxos"
+
+msgctxt "#30127"
+msgid "Series of Cartoon"
+msgstr "Series de Debuxos"
+
+msgctxt "#30128"
+msgid "Special and collections"
+msgstr "Especiais e coleccións"
+
+msgctxt "#30129"
+msgid "Search by title"
+msgstr "Buscar por título"
+
+msgctxt "#30130"
+msgid "Anime Movies"
+msgstr "Películas Anime"
+
+msgctxt "#30131"
+msgid "Serie Anime"
+msgstr "Series Anime"
+
+msgctxt "#30132"
+msgid "Documentary Films"
+msgstr "Películas Documentais"
+
+msgctxt "#30133"
+msgid "Documentary Series"
+msgstr "Series Documental"
+
+msgctxt "#30134"
+msgid "Favorite movies"
+msgstr "Películas favoritas"
+
+msgctxt "#30135"
+msgid "Favorite series"
+msgstr "Series favoritas"
+
+msgctxt "#30136"
+msgid "Favorite cartoon series"
+msgstr "Series de debuxos favoritas"
+
+msgctxt "#30137"
+msgid "Favorite Cartoon Movies"
+msgstr "Películas de debuxos favoritas"
+
+msgctxt "#30138"
+msgid "Favorite documentary series"
+msgstr "Series documentais favoritas"
+
+msgctxt "#30139"
+msgid "Favorite Documentary Films"
+msgstr "Películas documentais favoritas"
+
+msgctxt "#30140"
+msgid "Favorite Anime Movies"
+msgstr "Películas Anime favoritas"
+
+msgctxt "#30141"
+msgid "Favorite Anime Series"
+msgstr "Series Anime favoritas"
