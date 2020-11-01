@@ -20,7 +20,7 @@
   <requires>
     <import addon="script.module.six" version="1.11.0"/>
     <import addon="script.module.resolveurl" version="5.0.00"/>
-    <import addon="script.module.pycryptodome" version="3.4.3"/>
+    <import addon="script.module.pycryptodome"/>
     <import addon="script.extendedinfo" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
