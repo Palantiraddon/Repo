@@ -1,0 +1,1227 @@
+<?xml version="1.0" ?>
+<settings version="1">
+	<section id="plugin.video.palantir2">
+		<category id="interfaz" label="30000" help="">
+			<group id="1">
+				<setting id="IconPack" type="string" label="30001" help="">
+					<level>0</level>
+					<default>Nekko</default>
+					<constraints>
+						<options>
+							<option label="30349">Abstract</option>
+							<option label="30351">Bojbit</option>
+							<option label="30348">Nekko</option>
+							<option label="30350">TierraMedia</option>
+						</options>
+					</constraints>
+					<control type="spinner" format="string"/>
+				</setting>
+			</group>
+			<group id="2" label="30002">
+				<setting id="MenuColor" type="string" label="30003" help="">
+					<level>0</level>
+					<default>30251</default>
+					<constraints>
+						<options>
+							<option label="30200">30200</option>
+							<option label="30201">30201</option>
+							<option label="30202">30202</option>
+							<option label="30203">30203</option>
+							<option label="30204">30204</option>
+							<option label="30205">30205</option>
+							<option label="30206">30206</option>
+							<option label="30207">30207</option>
+							<option label="30208">30208</option>
+							<option label="30209">30209</option>
+							<option label="30210">30210</option>
+							<option label="30211">30211</option>
+							<option label="30212">30212</option>
+							<option label="30213">30213</option>
+							<option label="30214">30214</option>
+							<option label="30215">30215</option>
+							<option label="30216">30216</option>
+							<option label="30217">30217</option>
+							<option label="30218">30218</option>
+							<option label="30219">30219</option>
+							<option label="30220">30220</option>
+							<option label="30221">30221</option>
+							<option label="30222">30222</option>
+							<option label="30223">30223</option>
+							<option label="30224">30224</option>
+							<option label="30225">30225</option>
+							<option label="30226">30226</option>
+							<option label="30227">30227</option>
+							<option label="30228">30228</option>
+							<option label="30229">30229</option>
+							<option label="30230">30230</option>
+							<option label="30231">30231</option>
+							<option label="30232">30232</option>
+							<option label="30233">30233</option>
+							<option label="30234">30234</option>
+							<option label="30235">30235</option>
+							<option label="30236">30236</option>
+							<option label="30237">30237</option>
+							<option label="30238">30238</option>
+							<option label="30239">30239</option>
+							<option label="30240">30240</option>
+							<option label="30241">30241</option>
+							<option label="30242">30242</option>
+							<option label="30243">30243</option>
+							<option label="30244">30244</option>
+							<option label="30245">30245</option>
+							<option label="30246">30246</option>
+							<option label="30247">30247</option>
+							<option label="30248">30248</option>
+							<option label="30249">30249</option>
+							<option label="30250">30250</option>
+							<option label="30251">30251</option>
+							<option label="30252">30252</option>
+							<option label="30253">30253</option>
+							<option label="30254">30254</option>
+							<option label="30255">30255</option>
+							<option label="30256">30256</option>
+							<option label="30257">30257</option>
+							<option label="30258">30258</option>
+							<option label="30259">30259</option>
+							<option label="30260">30260</option>
+							<option label="30261">30261</option>
+							<option label="30262">30262</option>
+							<option label="30263">30263</option>
+							<option label="30264">30264</option>
+							<option label="30265">30265</option>
+							<option label="30266">30266</option>
+							<option label="30267">30267</option>
+							<option label="30268">30268</option>
+							<option label="30269">30269</option>
+							<option label="30270">30270</option>
+							<option label="30271">30271</option>
+							<option label="30272">30272</option>
+							<option label="30273">30273</option>
+							<option label="30274">30274</option>
+							<option label="30275">30275</option>
+							<option label="30276">30276</option>
+							<option label="30277">30277</option>
+							<option label="30278">30278</option>
+							<option label="30279">30279</option>
+							<option label="30280">30280</option>
+							<option label="30281">30281</option>
+							<option label="30282">30282</option>
+							<option label="30283">30283</option>
+							<option label="30284">30284</option>
+							<option label="30285">30285</option>
+							<option label="30286">30286</option>
+							<option label="30287">30287</option>
+							<option label="30288">30288</option>
+							<option label="30289">30289</option>
+							<option label="30290">30290</option>
+							<option label="30291">30291</option>
+							<option label="30292">30292</option>
+							<option label="30293">30293</option>
+							<option label="30294">30294</option>
+							<option label="30295">30295</option>
+							<option label="30296">30296</option>
+							<option label="30297">30297</option>
+							<option label="30298">30298</option>
+							<option label="30299">30299</option>
+							<option label="30300">30300</option>
+							<option label="30301">30301</option>
+							<option label="30302">30302</option>
+							<option label="30303">30303</option>
+							<option label="30304">30304</option>
+							<option label="30305">30305</option>
+							<option label="30306">30306</option>
+							<option label="30307">30307</option>
+							<option label="30308">30308</option>
+							<option label="30309">30309</option>
+							<option label="30310">30310</option>
+							<option label="30311">30311</option>
+							<option label="30312">30312</option>
+							<option label="30313">30313</option>
+							<option label="30314">30314</option>
+							<option label="30315">30315</option>
+							<option label="30316">30316</option>
+							<option label="30317">30317</option>
+							<option label="30318">30318</option>
+							<option label="30319">30319</option>
+							<option label="30320">30320</option>
+							<option label="30321">30321</option>
+							<option label="30322">30322</option>
+							<option label="30323">30323</option>
+							<option label="30324">30324</option>
+							<option label="30325">30325</option>
+							<option label="30326">30326</option>
+							<option label="30327">30327</option>
+							<option label="30328">30328</option>
+							<option label="30329">30329</option>
+							<option label="30330">30330</option>
+							<option label="30331">30331</option>
+							<option label="30332">30332</option>
+							<option label="30333">30333</option>
+							<option label="30334">30334</option>
+							<option label="30335">30335</option>
+							<option label="30336">30336</option>
+							<option label="30337">30337</option>
+							<option label="30338">30338</option>
+							<option label="30339">30339</option>
+							<option label="30340">30340</option>
+							<option label="30341">30341</option>
+							<option label="30342">30342</option>
+							<option label="30343">30343</option>
+							<option label="30344">30344</option>
+							<option label="30345">30345</option>
+							<option label="30346">30346</option>
+							<option label="30347">30347</option>
+						</options>
+					</constraints>
+					<control type="spinner" format="string"/>
+				</setting>
+				<setting id="LabelColor" type="string" label="30004" help="">
+					<level>0</level>
+					<default>30215</default>
+					<constraints>
+						<options>
+							<option label="30200">30200</option>
+							<option label="30201">30201</option>
+							<option label="30202">30202</option>
+							<option label="30203">30203</option>
+							<option label="30204">30204</option>
+							<option label="30205">30205</option>
+							<option label="30206">30206</option>
+							<option label="30207">30207</option>
+							<option label="30208">30208</option>
+							<option label="30209">30209</option>
+							<option label="30210">30210</option>
+							<option label="30211">30211</option>
+							<option label="30212">30212</option>
+							<option label="30213">30213</option>
+							<option label="30214">30214</option>
+							<option label="30215">30215</option>
+							<option label="30216">30216</option>
+							<option label="30217">30217</option>
+							<option label="30218">30218</option>
+							<option label="30219">30219</option>
+							<option label="30220">30220</option>
+							<option label="30221">30221</option>
+							<option label="30222">30222</option>
+							<option label="30223">30223</option>
+							<option label="30224">30224</option>
+							<option label="30225">30225</option>
+							<option label="30226">30226</option>
+							<option label="30227">30227</option>
+							<option label="30228">30228</option>
+							<option label="30229">30229</option>
+							<option label="30230">30230</option>
+							<option label="30231">30231</option>
+							<option label="30232">30232</option>
+							<option label="30233">30233</option>
+							<option label="30234">30234</option>
+							<option label="30235">30235</option>
+							<option label="30236">30236</option>
+							<option label="30237">30237</option>
+							<option label="30238">30238</option>
+							<option label="30239">30239</option>
+							<option label="30240">30240</option>
+							<option label="30241">30241</option>
+							<option label="30242">30242</option>
+							<option label="30243">30243</option>
+							<option label="30244">30244</option>
+							<option label="30245">30245</option>
+							<option label="30246">30246</option>
+							<option label="30247">30247</option>
+							<option label="30248">30248</option>
+							<option label="30249">30249</option>
+							<option label="30250">30250</option>
+							<option label="30251">30251</option>
+							<option label="30252">30252</option>
+							<option label="30253">30253</option>
+							<option label="30254">30254</option>
+							<option label="30255">30255</option>
+							<option label="30256">30256</option>
+							<option label="30257">30257</option>
+							<option label="30258">30258</option>
+							<option label="30259">30259</option>
+							<option label="30260">30260</option>
+							<option label="30261">30261</option>
+							<option label="30262">30262</option>
+							<option label="30263">30263</option>
+							<option label="30264">30264</option>
+							<option label="30265">30265</option>
+							<option label="30266">30266</option>
+							<option label="30267">30267</option>
+							<option label="30268">30268</option>
+							<option label="30269">30269</option>
+							<option label="30270">30270</option>
+							<option label="30271">30271</option>
+							<option label="30272">30272</option>
+							<option label="30273">30273</option>
+							<option label="30274">30274</option>
+							<option label="30275">30275</option>
+							<option label="30276">30276</option>
+							<option label="30277">30277</option>
+							<option label="30278">30278</option>
+							<option label="30279">30279</option>
+							<option label="30280">30280</option>
+							<option label="30281">30281</option>
+							<option label="30282">30282</option>
+							<option label="30283">30283</option>
+							<option label="30284">30284</option>
+							<option label="30285">30285</option>
+							<option label="30286">30286</option>
+							<option label="30287">30287</option>
+							<option label="30288">30288</option>
+							<option label="30289">30289</option>
+							<option label="30290">30290</option>
+							<option label="30291">30291</option>
+							<option label="30292">30292</option>
+							<option label="30293">30293</option>
+							<option label="30294">30294</option>
+							<option label="30295">30295</option>
+							<option label="30296">30296</option>
+							<option label="30297">30297</option>
+							<option label="30298">30298</option>
+							<option label="30299">30299</option>
+							<option label="30300">30300</option>
+							<option label="30301">30301</option>
+							<option label="30302">30302</option>
+							<option label="30303">30303</option>
+							<option label="30304">30304</option>
+							<option label="30305">30305</option>
+							<option label="30306">30306</option>
+							<option label="30307">30307</option>
+							<option label="30308">30308</option>
+							<option label="30309">30309</option>
+							<option label="30310">30310</option>
+							<option label="30311">30311</option>
+							<option label="30312">30312</option>
+							<option label="30313">30313</option>
+							<option label="30314">30314</option>
+							<option label="30315">30315</option>
+							<option label="30316">30316</option>
+							<option label="30317">30317</option>
+							<option label="30318">30318</option>
+							<option label="30319">30319</option>
+							<option label="30320">30320</option>
+							<option label="30321">30321</option>
+							<option label="30322">30322</option>
+							<option label="30323">30323</option>
+							<option label="30324">30324</option>
+							<option label="30325">30325</option>
+							<option label="30326">30326</option>
+							<option label="30327">30327</option>
+							<option label="30328">30328</option>
+							<option label="30329">30329</option>
+							<option label="30330">30330</option>
+							<option label="30331">30331</option>
+							<option label="30332">30332</option>
+							<option label="30333">30333</option>
+							<option label="30334">30334</option>
+							<option label="30335">30335</option>
+							<option label="30336">30336</option>
+							<option label="30337">30337</option>
+							<option label="30338">30338</option>
+							<option label="30339">30339</option>
+							<option label="30340">30340</option>
+							<option label="30341">30341</option>
+							<option label="30342">30342</option>
+							<option label="30343">30343</option>
+							<option label="30344">30344</option>
+							<option label="30345">30345</option>
+							<option label="30346">30346</option>
+							<option label="30347">30347</option>
+						</options>
+					</constraints>
+					<control type="spinner" format="string"/>
+				</setting>
+				<setting id="TituloColor" type="string" label="30005" help="">
+					<level>0</level>
+					<default>30344</default>
+					<constraints>
+						<options>
+							<option label="30200">30200</option>
+							<option label="30201">30201</option>
+							<option label="30202">30202</option>
+							<option label="30203">30203</option>
+							<option label="30204">30204</option>
+							<option label="30205">30205</option>
+							<option label="30206">30206</option>
+							<option label="30207">30207</option>
+							<option label="30208">30208</option>
+							<option label="30209">30209</option>
+							<option label="30210">30210</option>
+							<option label="30211">30211</option>
+							<option label="30212">30212</option>
+							<option label="30213">30213</option>
+							<option label="30214">30214</option>
+							<option label="30215">30215</option>
+							<option label="30216">30216</option>
+							<option label="30217">30217</option>
+							<option label="30218">30218</option>
+							<option label="30219">30219</option>
+							<option label="30220">30220</option>
+							<option label="30221">30221</option>
+							<option label="30222">30222</option>
+							<option label="30223">30223</option>
+							<option label="30224">30224</option>
+							<option label="30225">30225</option>
+							<option label="30226">30226</option>
+							<option label="30227">30227</option>
+							<option label="30228">30228</option>
+							<option label="30229">30229</option>
+							<option label="30230">30230</option>
+							<option label="30231">30231</option>
+							<option label="30232">30232</option>
+							<option label="30233">30233</option>
+							<option label="30234">30234</option>
+							<option label="30235">30235</option>
+							<option label="30236">30236</option>
+							<option label="30237">30237</option>
+							<option label="30238">30238</option>
+							<option label="30239">30239</option>
+							<option label="30240">30240</option>
+							<option label="30241">30241</option>
+							<option label="30242">30242</option>
+							<option label="30243">30243</option>
+							<option label="30244">30244</option>
+							<option label="30245">30245</option>
+							<option label="30246">30246</option>
+							<option label="30247">30247</option>
+							<option label="30248">30248</option>
+							<option label="30249">30249</option>
+							<option label="30250">30250</option>
+							<option label="30251">30251</option>
+							<option label="30252">30252</option>
+							<option label="30253">30253</option>
+							<option label="30254">30254</option>
+							<option label="30255">30255</option>
+							<option label="30256">30256</option>
+							<option label="30257">30257</option>
+							<option label="30258">30258</option>
+							<option label="30259">30259</option>
+							<option label="30260">30260</option>
+							<option label="30261">30261</option>
+							<option label="30262">30262</option>
+							<option label="30263">30263</option>
+							<option label="30264">30264</option>
+							<option label="30265">30265</option>
+							<option label="30266">30266</option>
+							<option label="30267">30267</option>
+							<option label="30268">30268</option>
+							<option label="30269">30269</option>
+							<option label="30270">30270</option>
+							<option label="30271">30271</option>
+							<option label="30272">30272</option>
+							<option label="30273">30273</option>
+							<option label="30274">30274</option>
+							<option label="30275">30275</option>
+							<option label="30276">30276</option>
+							<option label="30277">30277</option>
+							<option label="30278">30278</option>
+							<option label="30279">30279</option>
+							<option label="30280">30280</option>
+							<option label="30281">30281</option>
+							<option label="30282">30282</option>
+							<option label="30283">30283</option>
+							<option label="30284">30284</option>
+							<option label="30285">30285</option>
+							<option label="30286">30286</option>
+							<option label="30287">30287</option>
+							<option label="30288">30288</option>
+							<option label="30289">30289</option>
+							<option label="30290">30290</option>
+							<option label="30291">30291</option>
+							<option label="30292">30292</option>
+							<option label="30293">30293</option>
+							<option label="30294">30294</option>
+							<option label="30295">30295</option>
+							<option label="30296">30296</option>
+							<option label="30297">30297</option>
+							<option label="30298">30298</option>
+							<option label="30299">30299</option>
+							<option label="30300">30300</option>
+							<option label="30301">30301</option>
+							<option label="30302">30302</option>
+							<option label="30303">30303</option>
+							<option label="30304">30304</option>
+							<option label="30305">30305</option>
+							<option label="30306">30306</option>
+							<option label="30307">30307</option>
+							<option label="30308">30308</option>
+							<option label="30309">30309</option>
+							<option label="30310">30310</option>
+							<option label="30311">30311</option>
+							<option label="30312">30312</option>
+							<option label="30313">30313</option>
+							<option label="30314">30314</option>
+							<option label="30315">30315</option>
+							<option label="30316">30316</option>
+							<option label="30317">30317</option>
+							<option label="30318">30318</option>
+							<option label="30319">30319</option>
+							<option label="30320">30320</option>
+							<option label="30321">30321</option>
+							<option label="30322">30322</option>
+							<option label="30323">30323</option>
+							<option label="30324">30324</option>
+							<option label="30325">30325</option>
+							<option label="30326">30326</option>
+							<option label="30327">30327</option>
+							<option label="30328">30328</option>
+							<option label="30329">30329</option>
+							<option label="30330">30330</option>
+							<option label="30331">30331</option>
+							<option label="30332">30332</option>
+							<option label="30333">30333</option>
+							<option label="30334">30334</option>
+							<option label="30335">30335</option>
+							<option label="30336">30336</option>
+							<option label="30337">30337</option>
+							<option label="30338">30338</option>
+							<option label="30339">30339</option>
+							<option label="30340">30340</option>
+							<option label="30341">30341</option>
+							<option label="30342">30342</option>
+							<option label="30343">30343</option>
+							<option label="30344">30344</option>
+							<option label="30345">30345</option>
+							<option label="30346">30346</option>
+							<option label="30347">30347</option>
+						</options>
+					</constraints>
+					<control type="spinner" format="string"/>
+				</setting>
+				<setting id="QltColor" type="string" label="30006" help="">
+					<level>0</level>
+					<default>30254</default>
+					<constraints>
+						<options>
+							<option label="30200">30200</option>
+							<option label="30201">30201</option>
+							<option label="30202">30202</option>
+							<option label="30203">30203</option>
+							<option label="30204">30204</option>
+							<option label="30205">30205</option>
+							<option label="30206">30206</option>
+							<option label="30207">30207</option>
+							<option label="30208">30208</option>
+							<option label="30209">30209</option>
+							<option label="30210">30210</option>
+							<option label="30211">30211</option>
+							<option label="30212">30212</option>
+							<option label="30213">30213</option>
+							<option label="30214">30214</option>
+							<option label="30215">30215</option>
+							<option label="30216">30216</option>
+							<option label="30217">30217</option>
+							<option label="30218">30218</option>
+							<option label="30219">30219</option>
+							<option label="30220">30220</option>
+							<option label="30221">30221</option>
+							<option label="30222">30222</option>
+							<option label="30223">30223</option>
+							<option label="30224">30224</option>
+							<option label="30225">30225</option>
+							<option label="30226">30226</option>
+							<option label="30227">30227</option>
+							<option label="30228">30228</option>
+							<option label="30229">30229</option>
+							<option label="30230">30230</option>
+							<option label="30231">30231</option>
+							<option label="30232">30232</option>
+							<option label="30233">30233</option>
+							<option label="30234">30234</option>
+							<option label="30235">30235</option>
+							<option label="30236">30236</option>
+							<option label="30237">30237</option>
+							<option label="30238">30238</option>
+							<option label="30239">30239</option>
+							<option label="30240">30240</option>
+							<option label="30241">30241</option>
+							<option label="30242">30242</option>
+							<option label="30243">30243</option>
+							<option label="30244">30244</option>
+							<option label="30245">30245</option>
+							<option label="30246">30246</option>
+							<option label="30247">30247</option>
+							<option label="30248">30248</option>
+							<option label="30249">30249</option>
+							<option label="30250">30250</option>
+							<option label="30251">30251</option>
+							<option label="30252">30252</option>
+							<option label="30253">30253</option>
+							<option label="30254">30254</option>
+							<option label="30255">30255</option>
+							<option label="30256">30256</option>
+							<option label="30257">30257</option>
+							<option label="30258">30258</option>
+							<option label="30259">30259</option>
+							<option label="30260">30260</option>
+							<option label="30261">30261</option>
+							<option label="30262">30262</option>
+							<option label="30263">30263</option>
+							<option label="30264">30264</option>
+							<option label="30265">30265</option>
+							<option label="30266">30266</option>
+							<option label="30267">30267</option>
+							<option label="30268">30268</option>
+							<option label="30269">30269</option>
+							<option label="30270">30270</option>
+							<option label="30271">30271</option>
+							<option label="30272">30272</option>
+							<option label="30273">30273</option>
+							<option label="30274">30274</option>
+							<option label="30275">30275</option>
+							<option label="30276">30276</option>
+							<option label="30277">30277</option>
+							<option label="30278">30278</option>
+							<option label="30279">30279</option>
+							<option label="30280">30280</option>
+							<option label="30281">30281</option>
+							<option label="30282">30282</option>
+							<option label="30283">30283</option>
+							<option label="30284">30284</option>
+							<option label="30285">30285</option>
+							<option label="30286">30286</option>
+							<option label="30287">30287</option>
+							<option label="30288">30288</option>
+							<option label="30289">30289</option>
+							<option label="30290">30290</option>
+							<option label="30291">30291</option>
+							<option label="30292">30292</option>
+							<option label="30293">30293</option>
+							<option label="30294">30294</option>
+							<option label="30295">30295</option>
+							<option label="30296">30296</option>
+							<option label="30297">30297</option>
+							<option label="30298">30298</option>
+							<option label="30299">30299</option>
+							<option label="30300">30300</option>
+							<option label="30301">30301</option>
+							<option label="30302">30302</option>
+							<option label="30303">30303</option>
+							<option label="30304">30304</option>
+							<option label="30305">30305</option>
+							<option label="30306">30306</option>
+							<option label="30307">30307</option>
+							<option label="30308">30308</option>
+							<option label="30309">30309</option>
+							<option label="30310">30310</option>
+							<option label="30311">30311</option>
+							<option label="30312">30312</option>
+							<option label="30313">30313</option>
+							<option label="30314">30314</option>
+							<option label="30315">30315</option>
+							<option label="30316">30316</option>
+							<option label="30317">30317</option>
+							<option label="30318">30318</option>
+							<option label="30319">30319</option>
+							<option label="30320">30320</option>
+							<option label="30321">30321</option>
+							<option label="30322">30322</option>
+							<option label="30323">30323</option>
+							<option label="30324">30324</option>
+							<option label="30325">30325</option>
+							<option label="30326">30326</option>
+							<option label="30327">30327</option>
+							<option label="30328">30328</option>
+							<option label="30329">30329</option>
+							<option label="30330">30330</option>
+							<option label="30331">30331</option>
+							<option label="30332">30332</option>
+							<option label="30333">30333</option>
+							<option label="30334">30334</option>
+							<option label="30335">30335</option>
+							<option label="30336">30336</option>
+							<option label="30337">30337</option>
+							<option label="30338">30338</option>
+							<option label="30339">30339</option>
+							<option label="30340">30340</option>
+							<option label="30341">30341</option>
+							<option label="30342">30342</option>
+							<option label="30343">30343</option>
+							<option label="30344">30344</option>
+							<option label="30345">30345</option>
+							<option label="30346">30346</option>
+							<option label="30347">30347</option>
+						</options>
+					</constraints>
+					<control type="spinner" format="string"/>
+				</setting>
+				<setting id="AudioColor" type="string" label="30007" help="">
+					<level>0</level>
+					<default>30329</default>
+					<constraints>
+						<options>
+							<option label="30200">30200</option>
+							<option label="30201">30201</option>
+							<option label="30202">30202</option>
+							<option label="30203">30203</option>
+							<option label="30204">30204</option>
+							<option label="30205">30205</option>
+							<option label="30206">30206</option>
+							<option label="30207">30207</option>
+							<option label="30208">30208</option>
+							<option label="30209">30209</option>
+							<option label="30210">30210</option>
+							<option label="30211">30211</option>
+							<option label="30212">30212</option>
+							<option label="30213">30213</option>
+							<option label="30214">30214</option>
+							<option label="30215">30215</option>
+							<option label="30216">30216</option>
+							<option label="30217">30217</option>
+							<option label="30218">30218</option>
+							<option label="30219">30219</option>
+							<option label="30220">30220</option>
+							<option label="30221">30221</option>
+							<option label="30222">30222</option>
+							<option label="30223">30223</option>
+							<option label="30224">30224</option>
+							<option label="30225">30225</option>
+							<option label="30226">30226</option>
+							<option label="30227">30227</option>
+							<option label="30228">30228</option>
+							<option label="30229">30229</option>
+							<option label="30230">30230</option>
+							<option label="30231">30231</option>
+							<option label="30232">30232</option>
+							<option label="30233">30233</option>
+							<option label="30234">30234</option>
+							<option label="30235">30235</option>
+							<option label="30236">30236</option>
+							<option label="30237">30237</option>
+							<option label="30238">30238</option>
+							<option label="30239">30239</option>
+							<option label="30240">30240</option>
+							<option label="30241">30241</option>
+							<option label="30242">30242</option>
+							<option label="30243">30243</option>
+							<option label="30244">30244</option>
+							<option label="30245">30245</option>
+							<option label="30246">30246</option>
+							<option label="30247">30247</option>
+							<option label="30248">30248</option>
+							<option label="30249">30249</option>
+							<option label="30250">30250</option>
+							<option label="30251">30251</option>
+							<option label="30252">30252</option>
+							<option label="30253">30253</option>
+							<option label="30254">30254</option>
+							<option label="30255">30255</option>
+							<option label="30256">30256</option>
+							<option label="30257">30257</option>
+							<option label="30258">30258</option>
+							<option label="30259">30259</option>
+							<option label="30260">30260</option>
+							<option label="30261">30261</option>
+							<option label="30262">30262</option>
+							<option label="30263">30263</option>
+							<option label="30264">30264</option>
+							<option label="30265">30265</option>
+							<option label="30266">30266</option>
+							<option label="30267">30267</option>
+							<option label="30268">30268</option>
+							<option label="30269">30269</option>
+							<option label="30270">30270</option>
+							<option label="30271">30271</option>
+							<option label="30272">30272</option>
+							<option label="30273">30273</option>
+							<option label="30274">30274</option>
+							<option label="30275">30275</option>
+							<option label="30276">30276</option>
+							<option label="30277">30277</option>
+							<option label="30278">30278</option>
+							<option label="30279">30279</option>
+							<option label="30280">30280</option>
+							<option label="30281">30281</option>
+							<option label="30282">30282</option>
+							<option label="30283">30283</option>
+							<option label="30284">30284</option>
+							<option label="30285">30285</option>
+							<option label="30286">30286</option>
+							<option label="30287">30287</option>
+							<option label="30288">30288</option>
+							<option label="30289">30289</option>
+							<option label="30290">30290</option>
+							<option label="30291">30291</option>
+							<option label="30292">30292</option>
+							<option label="30293">30293</option>
+							<option label="30294">30294</option>
+							<option label="30295">30295</option>
+							<option label="30296">30296</option>
+							<option label="30297">30297</option>
+							<option label="30298">30298</option>
+							<option label="30299">30299</option>
+							<option label="30300">30300</option>
+							<option label="30301">30301</option>
+							<option label="30302">30302</option>
+							<option label="30303">30303</option>
+							<option label="30304">30304</option>
+							<option label="30305">30305</option>
+							<option label="30306">30306</option>
+							<option label="30307">30307</option>
+							<option label="30308">30308</option>
+							<option label="30309">30309</option>
+							<option label="30310">30310</option>
+							<option label="30311">30311</option>
+							<option label="30312">30312</option>
+							<option label="30313">30313</option>
+							<option label="30314">30314</option>
+							<option label="30315">30315</option>
+							<option label="30316">30316</option>
+							<option label="30317">30317</option>
+							<option label="30318">30318</option>
+							<option label="30319">30319</option>
+							<option label="30320">30320</option>
+							<option label="30321">30321</option>
+							<option label="30322">30322</option>
+							<option label="30323">30323</option>
+							<option label="30324">30324</option>
+							<option label="30325">30325</option>
+							<option label="30326">30326</option>
+							<option label="30327">30327</option>
+							<option label="30328">30328</option>
+							<option label="30329">30329</option>
+							<option label="30330">30330</option>
+							<option label="30331">30331</option>
+							<option label="30332">30332</option>
+							<option label="30333">30333</option>
+							<option label="30334">30334</option>
+							<option label="30335">30335</option>
+							<option label="30336">30336</option>
+							<option label="30337">30337</option>
+							<option label="30338">30338</option>
+							<option label="30339">30339</option>
+							<option label="30340">30340</option>
+							<option label="30341">30341</option>
+							<option label="30342">30342</option>
+							<option label="30343">30343</option>
+							<option label="30344">30344</option>
+							<option label="30345">30345</option>
+							<option label="30346">30346</option>
+							<option label="30347">30347</option>
+						</options>
+					</constraints>
+					<control type="spinner" format="string"/>
+				</setting>
+				<setting id="DateColor" type="string" label="30008" help="">
+					<level>0</level>
+					<default>30329</default>
+					<constraints>
+						<options>
+							<option label="30200">30200</option>
+							<option label="30201">30201</option>
+							<option label="30202">30202</option>
+							<option label="30203">30203</option>
+							<option label="30204">30204</option>
+							<option label="30205">30205</option>
+							<option label="30206">30206</option>
+							<option label="30207">30207</option>
+							<option label="30208">30208</option>
+							<option label="30209">30209</option>
+							<option label="30210">30210</option>
+							<option label="30211">30211</option>
+							<option label="30212">30212</option>
+							<option label="30213">30213</option>
+							<option label="30214">30214</option>
+							<option label="30215">30215</option>
+							<option label="30216">30216</option>
+							<option label="30217">30217</option>
+							<option label="30218">30218</option>
+							<option label="30219">30219</option>
+							<option label="30220">30220</option>
+							<option label="30221">30221</option>
+							<option label="30222">30222</option>
+							<option label="30223">30223</option>
+							<option label="30224">30224</option>
+							<option label="30225">30225</option>
+							<option label="30226">30226</option>
+							<option label="30227">30227</option>
+							<option label="30228">30228</option>
+							<option label="30229">30229</option>
+							<option label="30230">30230</option>
+							<option label="30231">30231</option>
+							<option label="30232">30232</option>
+							<option label="30233">30233</option>
+							<option label="30234">30234</option>
+							<option label="30235">30235</option>
+							<option label="30236">30236</option>
+							<option label="30237">30237</option>
+							<option label="30238">30238</option>
+							<option label="30239">30239</option>
+							<option label="30240">30240</option>
+							<option label="30241">30241</option>
+							<option label="30242">30242</option>
+							<option label="30243">30243</option>
+							<option label="30244">30244</option>
+							<option label="30245">30245</option>
+							<option label="30246">30246</option>
+							<option label="30247">30247</option>
+							<option label="30248">30248</option>
+							<option label="30249">30249</option>
+							<option label="30250">30250</option>
+							<option label="30251">30251</option>
+							<option label="30252">30252</option>
+							<option label="30253">30253</option>
+							<option label="30254">30254</option>
+							<option label="30255">30255</option>
+							<option label="30256">30256</option>
+							<option label="30257">30257</option>
+							<option label="30258">30258</option>
+							<option label="30259">30259</option>
+							<option label="30260">30260</option>
+							<option label="30261">30261</option>
+							<option label="30262">30262</option>
+							<option label="30263">30263</option>
+							<option label="30264">30264</option>
+							<option label="30265">30265</option>
+							<option label="30266">30266</option>
+							<option label="30267">30267</option>
+							<option label="30268">30268</option>
+							<option label="30269">30269</option>
+							<option label="30270">30270</option>
+							<option label="30271">30271</option>
+							<option label="30272">30272</option>
+							<option label="30273">30273</option>
+							<option label="30274">30274</option>
+							<option label="30275">30275</option>
+							<option label="30276">30276</option>
+							<option label="30277">30277</option>
+							<option label="30278">30278</option>
+							<option label="30279">30279</option>
+							<option label="30280">30280</option>
+							<option label="30281">30281</option>
+							<option label="30282">30282</option>
+							<option label="30283">30283</option>
+							<option label="30284">30284</option>
+							<option label="30285">30285</option>
+							<option label="30286">30286</option>
+							<option label="30287">30287</option>
+							<option label="30288">30288</option>
+							<option label="30289">30289</option>
+							<option label="30290">30290</option>
+							<option label="30291">30291</option>
+							<option label="30292">30292</option>
+							<option label="30293">30293</option>
+							<option label="30294">30294</option>
+							<option label="30295">30295</option>
+							<option label="30296">30296</option>
+							<option label="30297">30297</option>
+							<option label="30298">30298</option>
+							<option label="30299">30299</option>
+							<option label="30300">30300</option>
+							<option label="30301">30301</option>
+							<option label="30302">30302</option>
+							<option label="30303">30303</option>
+							<option label="30304">30304</option>
+							<option label="30305">30305</option>
+							<option label="30306">30306</option>
+							<option label="30307">30307</option>
+							<option label="30308">30308</option>
+							<option label="30309">30309</option>
+							<option label="30310">30310</option>
+							<option label="30311">30311</option>
+							<option label="30312">30312</option>
+							<option label="30313">30313</option>
+							<option label="30314">30314</option>
+							<option label="30315">30315</option>
+							<option label="30316">30316</option>
+							<option label="30317">30317</option>
+							<option label="30318">30318</option>
+							<option label="30319">30319</option>
+							<option label="30320">30320</option>
+							<option label="30321">30321</option>
+							<option label="30322">30322</option>
+							<option label="30323">30323</option>
+							<option label="30324">30324</option>
+							<option label="30325">30325</option>
+							<option label="30326">30326</option>
+							<option label="30327">30327</option>
+							<option label="30328">30328</option>
+							<option label="30329">30329</option>
+							<option label="30330">30330</option>
+							<option label="30331">30331</option>
+							<option label="30332">30332</option>
+							<option label="30333">30333</option>
+							<option label="30334">30334</option>
+							<option label="30335">30335</option>
+							<option label="30336">30336</option>
+							<option label="30337">30337</option>
+							<option label="30338">30338</option>
+							<option label="30339">30339</option>
+							<option label="30340">30340</option>
+							<option label="30341">30341</option>
+							<option label="30342">30342</option>
+							<option label="30343">30343</option>
+							<option label="30344">30344</option>
+							<option label="30345">30345</option>
+							<option label="30346">30346</option>
+							<option label="30347">30347</option>
+						</options>
+					</constraints>
+					<control type="spinner" format="string"/>
+				</setting>
+				<setting id="ServerColor" type="string" label="30009" help="">
+					<level>0</level>
+					<default>30344</default>
+					<constraints>
+						<options>
+							<option label="30200">30200</option>
+							<option label="30201">30201</option>
+							<option label="30202">30202</option>
+							<option label="30203">30203</option>
+							<option label="30204">30204</option>
+							<option label="30205">30205</option>
+							<option label="30206">30206</option>
+							<option label="30207">30207</option>
+							<option label="30208">30208</option>
+							<option label="30209">30209</option>
+							<option label="30210">30210</option>
+							<option label="30211">30211</option>
+							<option label="30212">30212</option>
+							<option label="30213">30213</option>
+							<option label="30214">30214</option>
+							<option label="30215">30215</option>
+							<option label="30216">30216</option>
+							<option label="30217">30217</option>
+							<option label="30218">30218</option>
+							<option label="30219">30219</option>
+							<option label="30220">30220</option>
+							<option label="30221">30221</option>
+							<option label="30222">30222</option>
+							<option label="30223">30223</option>
+							<option label="30224">30224</option>
+							<option label="30225">30225</option>
+							<option label="30226">30226</option>
+							<option label="30227">30227</option>
+							<option label="30228">30228</option>
+							<option label="30229">30229</option>
+							<option label="30230">30230</option>
+							<option label="30231">30231</option>
+							<option label="30232">30232</option>
+							<option label="30233">30233</option>
+							<option label="30234">30234</option>
+							<option label="30235">30235</option>
+							<option label="30236">30236</option>
+							<option label="30237">30237</option>
+							<option label="30238">30238</option>
+							<option label="30239">30239</option>
+							<option label="30240">30240</option>
+							<option label="30241">30241</option>
+							<option label="30242">30242</option>
+							<option label="30243">30243</option>
+							<option label="30244">30244</option>
+							<option label="30245">30245</option>
+							<option label="30246">30246</option>
+							<option label="30247">30247</option>
+							<option label="30248">30248</option>
+							<option label="30249">30249</option>
+							<option label="30250">30250</option>
+							<option label="30251">30251</option>
+							<option label="30252">30252</option>
+							<option label="30253">30253</option>
+							<option label="30254">30254</option>
+							<option label="30255">30255</option>
+							<option label="30256">30256</option>
+							<option label="30257">30257</option>
+							<option label="30258">30258</option>
+							<option label="30259">30259</option>
+							<option label="30260">30260</option>
+							<option label="30261">30261</option>
+							<option label="30262">30262</option>
+							<option label="30263">30263</option>
+							<option label="30264">30264</option>
+							<option label="30265">30265</option>
+							<option label="30266">30266</option>
+							<option label="30267">30267</option>
+							<option label="30268">30268</option>
+							<option label="30269">30269</option>
+							<option label="30270">30270</option>
+							<option label="30271">30271</option>
+							<option label="30272">30272</option>
+							<option label="30273">30273</option>
+							<option label="30274">30274</option>
+							<option label="30275">30275</option>
+							<option label="30276">30276</option>
+							<option label="30277">30277</option>
+							<option label="30278">30278</option>
+							<option label="30279">30279</option>
+							<option label="30280">30280</option>
+							<option label="30281">30281</option>
+							<option label="30282">30282</option>
+							<option label="30283">30283</option>
+							<option label="30284">30284</option>
+							<option label="30285">30285</option>
+							<option label="30286">30286</option>
+							<option label="30287">30287</option>
+							<option label="30288">30288</option>
+							<option label="30289">30289</option>
+							<option label="30290">30290</option>
+							<option label="30291">30291</option>
+							<option label="30292">30292</option>
+							<option label="30293">30293</option>
+							<option label="30294">30294</option>
+							<option label="30295">30295</option>
+							<option label="30296">30296</option>
+							<option label="30297">30297</option>
+							<option label="30298">30298</option>
+							<option label="30299">30299</option>
+							<option label="30300">30300</option>
+							<option label="30301">30301</option>
+							<option label="30302">30302</option>
+							<option label="30303">30303</option>
+							<option label="30304">30304</option>
+							<option label="30305">30305</option>
+							<option label="30306">30306</option>
+							<option label="30307">30307</option>
+							<option label="30308">30308</option>
+							<option label="30309">30309</option>
+							<option label="30310">30310</option>
+							<option label="30311">30311</option>
+							<option label="30312">30312</option>
+							<option label="30313">30313</option>
+							<option label="30314">30314</option>
+							<option label="30315">30315</option>
+							<option label="30316">30316</option>
+							<option label="30317">30317</option>
+							<option label="30318">30318</option>
+							<option label="30319">30319</option>
+							<option label="30320">30320</option>
+							<option label="30321">30321</option>
+							<option label="30322">30322</option>
+							<option label="30323">30323</option>
+							<option label="30324">30324</option>
+							<option label="30325">30325</option>
+							<option label="30326">30326</option>
+							<option label="30327">30327</option>
+							<option label="30328">30328</option>
+							<option label="30329">30329</option>
+							<option label="30330">30330</option>
+							<option label="30331">30331</option>
+							<option label="30332">30332</option>
+							<option label="30333">30333</option>
+							<option label="30334">30334</option>
+							<option label="30335">30335</option>
+							<option label="30336">30336</option>
+							<option label="30337">30337</option>
+							<option label="30338">30338</option>
+							<option label="30339">30339</option>
+							<option label="30340">30340</option>
+							<option label="30341">30341</option>
+							<option label="30342">30342</option>
+							<option label="30343">30343</option>
+							<option label="30344">30344</option>
+							<option label="30345">30345</option>
+							<option label="30346">30346</option>
+							<option label="30347">30347</option>
+						</options>
+					</constraints>
+					<control type="spinner" format="string"/>
+				</setting>
+			</group>
+		</category>
+		<category id="cuentas" label="30010" help="">
+			<group id="1" label="30011">
+				<setting id="TOP_user" type="string" label="30012" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<control type="edit" format="string">
+						<heading>30012</heading>
+					</control>
+				</setting>
+				<setting id="TOP_password" type="string" label="30013" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<control type="edit" format="string">
+						<heading>30013</heading>
+					</control>
+				</setting>
+			</group>
+			<group id="2" label="30014">
+				<visible>False</visible>
+				<setting id="Alldebrid_user" type="string" label="30012" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<control type="edit" format="string">
+						<heading>30012</heading>
+					</control>
+				</setting>
+				<setting id="Alldebrid_password" type="string" label="30013" help="">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<control type="edit" format="string">
+						<heading>30013</heading>
+					</control>
+				</setting>
+			</group>
+		</category>
+		<category id="mas..." label="30020" help="">
+			<group id="1">
+				<setting id="OrderYear" type="string" label="30028" help="">
+					<level>0</level>
+					<default> order by sum(views) desc</default>
+					<constraints>
+						<options>
+							<option label="30122">order by sum(views) desc</option>
+							<option label="30124">order by updated desc</option>
+							<option label="30115">order by nombre COLLATE latin1</option>
+						</options>
+					</constraints>
+					<control type="spinner" format="string"/>
+				</setting>
+				<setting id="Watched" type="integer" label="30021" help="">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option label="30022">0</option>
+							<option label="30023">1</option>
+							<option label="30024">2</option>
+						</options>
+					</constraints>
+					<control type="spinner" format="string"/>
+				</setting>
+				<setting id="Always_resolveUrl" type="boolean" label="30029" help="">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+				<setting id="MPD_hidde" type="boolean" label="30058" help="">
+					<level>0</level>
+					<default>true</default>
+					<control type="toggle"/>
+				</setting>
+			</group>
+			<group id="2" label="30025">
+				<visible>False</visible>
+				<setting id="reset_resolveurl_cache" type="action" label="30026" help="">
+					<level>0</level>
+					<data>RunPlugin(plugin://script.module.resolveurl/?mode=reset_cache)</data>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<control type="button" format="action"/>
+				</setting>
+				<setting id="reset_extendedinfo_cache" type="action" label="30027" help="">
+					<level>0</level>
+					<data>RunScript(script.extendedinfo,info=deletecache)</data>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<control type="button" format="action"/>
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>
