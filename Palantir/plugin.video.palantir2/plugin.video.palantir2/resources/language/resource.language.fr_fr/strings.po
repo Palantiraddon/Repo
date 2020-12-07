@@ -76,7 +76,27 @@ msgctxt "#30013"
 msgid "Password"
 msgstr "Code"
 
-# empty strings from id 30014 to 30020
+msgctxt "#30014"
+msgid "Alldebrid"
+msgstr "Alldebrid"
+
+msgctxt "#30015"
+msgid "Apikey Name"
+msgstr "Utilisateur Apikey"
+
+msgctxt "#30016"
+msgid "Apikey Code"
+msgstr "Code Apikey"
+
+msgctxt "#30017"
+msgid "Always play at full resolution (only Premium)"
+msgstr "Jouez toujours en pleine résolution (uniquement Premium)"
+
+msgctxt "#30018"
+msgid "The duration of the video is %s minutes and you only have %s view.\nWould you like to cancel the playback?"
+msgstr "La durée de la vidéo est de %s minutes et vous n'avez que %s d'une visualisation.\nVoulez-vous annuler la lecture?"
+
+# empty strings from id 30019 to 30020
 
 msgctxt "#30020"
 msgid More..."
@@ -179,8 +199,8 @@ msgid "Unknown"
 msgstr "Inconnu"
 
 msgctxt "#30046"
-msgid "It is necessary to have the GDrive addon configured correctly."
-msgstr "Il est nécessaire d'avoir configuré addon GDrive correctement."
+msgid "It is necessary to have the Team / Drive account configured in settings."
+msgstr "Il est nécessaire de configurer le compte Team/Drive dans les paramètres."
 
 msgctxt "#30047"
 msgid "Resolve not available"

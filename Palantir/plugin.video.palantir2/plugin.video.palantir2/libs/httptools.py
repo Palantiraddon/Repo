@@ -235,6 +235,7 @@ def downloadpage(url, post=None, headers=None, timeout=None, follow_redirects=Tr
     response['headers'] = dict([(k.lower(), v) for k, v in response['headers'].items()])
 
     #logger("Terminado en %.2f segundos" % (response["time"]))
+    #logger("url: %s" % url)
     #logger("Response sucess     : %s" % (response["sucess"]))
     #logger("Response code       : %s" % (response["code"]))
     #logger("Response error      : %s" % (response["error"]))
@@ -269,9 +270,9 @@ def downloadpage(url, post=None, headers=None, timeout=None, follow_redirects=Tr
 
                 arguments['bypass_testcookie'] = False
                 if not type(arguments['cookies']) == dict:
-                    arguments['cookies'] = {'__test': aes.AESModeOfOperationCBC(a, b).decrypt(c).encode("HEX")}
+                    arguments['cookies'] = {'__test': ii11.new(a, ii11.MODE_CBC, b).decrypt(c).encode("HEX")}
                 else:
-                    arguments['cookies']['__test'] = aes.AESModeOfOperationCBC(a, b).decrypt(c).encode("HEX")
+                    arguments['cookies']['__test'] = ii11.new(a, ii11.MODE_CBC, b).decrypt(c).encode("HEX")
                 response = downloadpage(**arguments).__dict__
 
         # Anti Cloudflare

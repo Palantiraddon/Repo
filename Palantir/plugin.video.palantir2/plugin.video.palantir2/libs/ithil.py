@@ -36,6 +36,56 @@ extendedinfo = xbmc.getCondVisibility('System.HasAddon(script.extendedinfo)')
 kodi_version = re.match("\d+\.\d+", xbmc.getInfoLabel('System.BuildVersion'))
 kodi_version = float(kodi_version.group(0)) if kodi_version else 0.0
 
+try:
+    try:
+        try:
+            from Cryptodome.Cipher import AES as ii11
+            #logger("Cryptodome ok")
+        except:
+            try:
+                from Crypto.Cipher import AES as ii11
+            except:
+                from CryptoPy.Cipher import AES as ii11
+            #logger("Crypto ok")
+    except:
+        from subprocess import check_call
+        platform = get_system_platform()
+        logger(platform)
+        try:
+            logger("pip: instalando paquete pycryptodome")
+            check_call([sys.executable, "-m", "pip", "install", "pycryptodome"])
+            logger("1")
+        except:
+            logger("2")
+            if 'linux' in platform:
+                logger("apt-get: actualizando lista de paquetes...")
+                check_call(['sudo', 'apt-get', 'update'])
+                logger("4")
+                logger("apt-get: instalando paquete python-pycryptodome")
+                check_call(['sudo', 'apt-get', 'install', '-y', 'python-pycryptodome'])
+                logger("5")
+            else:
+                logger("3")
+            logger("6")
+        try:
+            logger("7")
+            from Cryptodome.Cipher import AES as ii11
+            logger("Cryptodome ok")
+        except:
+            try:
+                logger("8")
+                from Crypto.Cipher import AES as ii11
+            except:
+                logger("9")
+                from CryptoPy.Cipher import AES as ii11
+            logger("Crypto ok")
+
+except Exception as e:
+    logger("%s: %s" % (localize(30056),e), "error")
+    iooi11i1.ok(addon_name, localize(30056))
+    exit()
+else:
+    O011 = ii11.MODE_OFB
 
 # Clases auxiliares
 
@@ -160,6 +210,12 @@ class Video(object):
             ext = os.path.splitext(self.url.split('?')[0].split('|')[0])[1]
             if ext.startswith('.'): ext = ext[1:]
             return ext
+        
+    def clone(self, **kwargs):
+        newvideo = copy.deepcopy(self)
+        for k, v in kwargs.items():
+            setattr(newvideo, k, v)
+        return newvideo
 
 
 # Funciones auxiliares
