@@ -202,8 +202,8 @@ msgid "Unknown"
 msgstr "Desconegut"
 
 msgctxt "#30046"
-msgid "It is necessary to have the Team / Drive account configured in settings."
-msgstr "Cal que el compte Team / Drive estigui configurat a la configuració."
+msgid "Your current version of Palantir 2 is %s. Now available version %s."
+msgstr "La vostra versió actual de Palantir 2 és %s. Ara està disponible la versió %s."
 
 msgctxt "#30047"
 msgid "Resolve not available"
@@ -255,11 +255,16 @@ msgid "Hide MPD links"
 msgstr "Amaga els enllaços MPD"
 
 msgctxt "#30059"
-msgid "Server %s temporarily out of service"
-msgstr "Servidor %s temporalment fora de servei"
+msgid "Error playing video. Try again later"
+msgstr "S'ha produït un error en reproduir el vídeo. Prova-ho més tard"
+
+msgctxt "#30060"
+msgid "%s Waiting for %s seconds"
+msgstr "%s Esperant %s segons"
 
 
-# empty strings from id 30060 to 30099
+
+# empty strings from id 30061 to 30099
 
 # moria
 

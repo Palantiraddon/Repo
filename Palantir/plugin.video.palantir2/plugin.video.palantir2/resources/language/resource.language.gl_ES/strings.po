@@ -203,8 +203,8 @@ msgid "Unknown"
 msgstr "Descoñecido"
 
 msgctxt "#30046"
-msgid "It is necessary to have the Team / Drive account configured in settings."
-msgstr "É necesario ter a conta de Team / Drive configurada na configuración."
+msgid "Your current version of Palantir 2 is %s. Now available version %s."
+msgstr "A túa versión actual de Palantir 2 é %s. Agora está dispoñible a versión %s."
 
 msgctxt "#30047"
 msgid "Resolve not available"
@@ -255,12 +255,15 @@ msgid "Hide MPD links"
 msgstr "Ocultar ligazóns MPD"
 
 msgctxt "#30059"
-msgid "Server %s temporarily out of service"
-msgstr "O servidor %s está temporalmente inactivo"
+msgid "Error playing video. Try again later"
+msgstr "Erro ao reproducir o vídeo. Téntao de novo máis tarde"
+
+msgctxt "#30060"
+msgid "%s Waiting for %s seconds"
+msgstr "%s Agardando por %s segundos"
 
 
-
-# empty strings from id 30060 to 30099
+# empty strings from id 30061 to 30099
 
 # moria
 

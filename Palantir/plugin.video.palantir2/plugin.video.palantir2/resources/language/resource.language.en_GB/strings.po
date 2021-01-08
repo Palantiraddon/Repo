@@ -812,7 +812,7 @@ msgid "Unknown"
 msgstr ""
 
 msgctxt "#30046"
-msgid "It is necessary to have the Team / Drive account configured in settings."
+msgid "Your current version of Palantir 2 is %s. Now available version %s."
 msgstr ""
 
 msgctxt "#30047"
@@ -865,11 +865,16 @@ msgid "Hide MPD links"
 msgstr ""
 
 msgctxt "#30059"
-msgid "Server %s temporarily out of service"
+msgid "Error playing video. Try again later"
+msgstr ""
+
+msgctxt "#30060"
+msgid "%s Waiting for %s seconds"
 msgstr ""
 
 
-# empty strings from id 30060 to 30099
+
+# empty strings from id 30061 to 30099
 
 # moria
 

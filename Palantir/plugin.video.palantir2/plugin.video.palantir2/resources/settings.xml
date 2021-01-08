@@ -1133,6 +1133,9 @@
 				</setting>
 				<setting id="TOP_password" type="string" label="30013" help="">
 					<level>0</level>
+					<dependencies>
+						<dependency type="enable" operator="!is" setting="TOP_user"></dependency>
+					</dependencies>
 					<default/>
 					<constraints>
 						<allowempty>true</allowempty>
@@ -1143,6 +1146,10 @@
 				</setting>
 				<setting id="TOP_onlyOrigin" type="boolean" label="30017" help="">
 					<level>0</level>
+					<dependencies>
+						<dependency type="enable" operator="!is" setting="TOP_user"></dependency>
+						<dependency type="enable" operator="!is" setting="TOP_password"></dependency>
+					</dependencies>
 					<default>true</default>
 					<control type="toggle"/>
 				</setting>
