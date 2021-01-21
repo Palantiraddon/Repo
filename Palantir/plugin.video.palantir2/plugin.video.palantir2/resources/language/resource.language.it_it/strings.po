@@ -103,8 +103,8 @@ msgid More..."
 msgstr "Mas..."
 
 msgctxt "#30021"
-msgid "To mark like seen"
-msgstr "Segna come visto"
+msgid "To mark like seen / Series in follow-up"
+msgstr "Segna come visto / Serie nel follow-up"
 
 msgctxt "#30022"
 msgid "Never"
@@ -137,6 +137,10 @@ msgstr "Visualizzazioni di film all'anno"
 msgctxt "#30029"
 msgid "Always use resolveUrl"
 msgstr "Usa sempre resolveUrl"
+
+msgctxt "#30030"
+msgid "Next episode in.... %s seconds"
+msgstr "Prossimo episodio tra.... %s secondi"
 
 
 # Palantir
@@ -262,7 +266,12 @@ msgid "%s Waiting for %s seconds"
 msgstr "%s Aspettando %s secondi"
 
 
-# empty strings from id 30061 to 30099
+msgctxt "#30061"
+msgid "Start next episode automatically."
+msgstr "Avvia automaticamente il prossimo episodio."
+
+
+# empty strings from id 30062 to 30099
 
 # moria
 
@@ -429,3 +438,7 @@ msgstr "Film di Anime preferita"
 msgctxt "#30141"
 msgid "Favorite Anime Series"
 msgstr "Serie di Anime preferita"
+
+msgctxt "#30142"
+msgid "Series in follow-up"
+msgstr "Serie in follow-up"

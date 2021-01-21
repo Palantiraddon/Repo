@@ -1247,6 +1247,11 @@
 					<default>true</default>
 					<control type="toggle"/>
 				</setting>
+				<setting id="NextEpisode" type="boolean" label="30061" help="">
+					<level>0</level>
+					<default>true</default>
+					<control type="toggle"/>
+				</setting>
 			</group>
 			<group id="2" label="30025">
 				<visible>False</visible>
