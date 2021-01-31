@@ -102,22 +102,6 @@ msgctxt "#30020"
 msgid More..."
 msgstr "Máis..."
 
-msgctxt "#30021"
-msgid "To mark like seen / Series in follow-up"
-msgstr "Marcar como visto / Serie no seguimento"
-
-msgctxt "#30022"
-msgid "Never"
-msgstr "Nunca"
-
-msgctxt "#30023"
-msgid "When viewing 80% of the video"
-msgstr "Ó ver o 80% do vídeo"
-
-msgctxt "#30024"
-msgid "On having opened the video"
-msgstr "Ó abrir o vídeo"
-
 msgctxt "#30025"
 msgid "Maintenance"
 msgstr "Mantemento"
@@ -218,12 +202,8 @@ msgid "Changing icons will take effect when you go out and re-enter"
 msgstr "O cambio de iconos terá efecto cando saias e voltes a entrar a"
 
 msgctxt "#30049"
-msgid "Mark as seen"
-msgstr "Marcar como visto"
-
-msgctxt "#30050"
-msgid "Clear as seen"
-msgstr "Desmarcar como visto"
+msgid "Remember last search"
+msgstr "Lembre a última busca"
 
 msgctxt "#30051"
 msgid "We're updating the list of movies and series for you."
@@ -234,8 +214,8 @@ msgid "Vers. %s (More of %s different contents)"
 msgstr "Vers. %s (Máis de %s contidos diferentes)"
 
 msgctxt "#30053"
-msgid "Error, We were unable to update the contents. Restart Kodi and try again."
-msgstr "Erro, non puidemos actualizar os contidos. Reinicia Kodi y volta a tentalo."
+msgid "We were unable to update the contents"
+msgstr "Non puidemos actualizar os contidos"
 
 msgctxt "#30054"
 msgid "Updating external dependencies..."
@@ -266,8 +246,8 @@ msgid "%s Waiting for %s seconds"
 msgstr "%s Agardando por %s segundos"
 
 msgctxt "#30061"
-msgid "Start next episode automatically."
-msgstr "Comeza o seguinte episodio automaticamente."
+msgid "Start next episode automatically"
+msgstr "Comeza o seguinte episodio automaticamente"
 
 
 # empty strings from id 30062 to 30099

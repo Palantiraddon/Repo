@@ -16,6 +16,16 @@
 					</constraints>
 					<control type="spinner" format="string"/>
 				</setting>
+				<setting id="RemenberQuery" type="boolean" label="30049" help="">
+					<level>0</level>
+					<default>true</default>
+					<control type="toggle"/>
+				</setting>
+				<setting id="NextEpisode" type="boolean" label="30061" help="">
+					<level>0</level>
+					<default>true</default>
+					<control type="toggle"/>
+				</setting>
 			</group>
 			<group id="2" label="30002">
 				<setting id="MenuColor" type="string" label="30003" help="">
@@ -1225,29 +1235,12 @@
 					</constraints>
 					<control type="spinner" format="string"/>
 				</setting>
-				<setting id="Watched" type="integer" label="30021" help="">
-					<level>0</level>
-					<default>1</default>
-					<constraints>
-						<options>
-							<option label="30022">0</option>
-							<option label="30023">1</option>
-							<option label="30024">2</option>
-						</options>
-					</constraints>
-					<control type="spinner" format="string"/>
-				</setting>
 				<setting id="Always_resolveUrl" type="boolean" label="30029" help="">
 					<level>0</level>
 					<default>false</default>
 					<control type="toggle"/>
 				</setting>
 				<setting id="MPD_hidde" type="boolean" label="30058" help="">
-					<level>0</level>
-					<default>true</default>
-					<control type="toggle"/>
-				</setting>
-				<setting id="NextEpisode" type="boolean" label="30061" help="">
 					<level>0</level>
 					<default>true</default>
 					<control type="toggle"/>

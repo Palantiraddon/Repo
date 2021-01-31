@@ -108,6 +108,10 @@ class Item(object):
         else:
             return self.defaults.get(item, '')
 
+    def __eq__(self, other):
+        return isinstance(other, Item) and self.action == other.action and self.content == other.content and \
+               self.tmdb == other.tmdb and self.season == other.season and self.episode == other.episode
+
     def __str__(self):
         return '{%s}' % (', '.join(['\'%s\': %s' % (k, repr(self.__dict__[k])) for k in sorted(self.__dict__.keys())]))
 
@@ -122,7 +126,7 @@ class Item(object):
         return d
 
     def tourl(self):
-        value = repr(self.__dict__)
+        value = self.__str__()
         if not isinstance(value, six.binary_type):
             value = six.binary_type(value, 'utf8')
         return six.ensure_str(urllib_parse.quote(base64.b64encode(value)))

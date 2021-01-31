@@ -16,7 +16,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.1.0" provider-name="TierraMedia">
+<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.1.1" provider-name="TierraMedia">
   <requires>
     <import addon="script.module.six" version="1.11.0"/>
     <import addon="script.module.resolveurl" version="5.0.00"/>
@@ -44,16 +44,11 @@
         <screenshot>resources/media/Captura4.png</screenshot>
     </assets>
     <news>
-        - Agrupar películas.
-- Agrupar temporadas y episodios.
-- Mostrar servidores disponibles y calidad en cuadro de selección.
-
-- Añadidos nuevos servidores.
-- Añadida nueva función 'Series siguiendo'.
-- Añadida nueva función 'Siguiente episodio' (Desactivable desde ajustes)
-
-- Corrección del orden en los episodios.
-- Correcciones internas.
+        - Corregidos problemas con las actualizaciones
+- Reescrita la función de seguimiento.
+- Eliminar el paso por Temporadas cuando solo existe una.
+- Añadidos nuevas opciones en ajustes.
+- Reparado servidor Zipi.
     </news>
     <forum></forum>
   </extension>
