@@ -250,8 +250,20 @@ msgctxt "#30061"
 msgid "Start next episode automatically"
 msgstr "Avvia automaticamente il prossimo episodio"
 
+msgctxt "#30062"
+msgid "Show series in follow-up"
+msgstr "Mostra le serie in seguito"
 
-# empty strings from id 30062 to 30099
+msgctxt "#30063"
+msgid "There are no series in follow-up at this time"
+msgstr "Non ci sono serie in fase di follow-up in questo momento"
+
+msgctxt "#30064"
+msgid "Unmark viewed"
+msgstr "Deseleziona visualizzato"
+
+
+# empty strings from id 30065 to 30099
 
 # moria
 
