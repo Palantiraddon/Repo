@@ -123,8 +123,8 @@ msgid "Always use resolveUrl"
 msgstr "Utilitza sempre resolverUrl"
 
 msgctxt "#30030"
-msgid "Next episode in.... %s seconds"
-msgstr "Següent episodi en.... %s segons"
+msgid "Starting [COLOR %s]%s (%sx%s) [/ COLOR] in %s seconds"
+msgstr "Iniciant [COLOR %s]%s (%sx%s) [/ COLOR] a %s segons"
 
 # Palantir
 
@@ -261,8 +261,27 @@ msgctxt "#30064"
 msgid "Unmark viewed"
 msgstr "Desmarcar vistos"
 
+msgctxt "#30065"
+msgid "Search trailer"
+msgstr "Cercar tràiler"
 
-# empty strings from id 30065 to 30099
+msgctxt "#30066"
+msgid "No trailer available for %s at this time"
+msgstr "Cap tràiler disponible per a %s en aquest moment"
+
+msgctxt "#30067"
+msgid "Searching last episode viewed of season %s"
+msgstr "Buscant últim episodi visualitzat de la temporada %s"
+
+msgctxt "#30068"
+msgid "Seasons / Episodes"
+msgstr "Temporades / Episodis"
+
+msgctxt "#30069"
+msgid "Season %s concluded. Check if there are more seasons available"
+msgstr "Temporada %s conclosa. Comproveu si hi ha més temporades disponibles"
+
+# empty strings from id 30070 to 30099
 
 # moria
 

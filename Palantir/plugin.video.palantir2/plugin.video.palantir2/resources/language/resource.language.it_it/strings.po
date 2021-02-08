@@ -123,8 +123,8 @@ msgid "Always use resolveUrl"
 msgstr "Usa sempre resolveUrl"
 
 msgctxt "#30030"
-msgid "Next episode in.... %s seconds"
-msgstr "Prossimo episodio tra.... %s secondi"
+msgid "Starting [COLOR %s]%s (%sx%s) [/ COLOR] in %s seconds"
+msgstr "Avvio di [COLOR %s]%s (%sx%s) [/ COLOR] in %s secondi"
 
 
 # Palantir
@@ -262,8 +262,27 @@ msgctxt "#30064"
 msgid "Unmark viewed"
 msgstr "Deseleziona visualizzato"
 
+msgctxt "#30065"
+msgid "Search trailer"
+msgstr "Cerca trailer"
 
-# empty strings from id 30065 to 30099
+msgctxt "#30066"
+msgid "No trailer available for %s at this time"
+msgstr "Nessun trailer disponibile per %s in questo momento"
+
+msgctxt "#30067"
+msgid "Searching last episode viewed of season %s"
+msgstr "Ricerca dell'ultimo episodio guardato della stagione %s"
+
+msgctxt "#30068"
+msgid "Seasons / Episodes"
+msgstr "Stagioni / Episodi"
+
+msgctxt "#30069"
+msgid "Season %s concluded. Check if there are more seasons available"
+msgstr "Stagione %s conclusa. Controlla se sono disponibili più stagioni"
+
+# empty strings from id 30070 to 30099
 
 # moria
 

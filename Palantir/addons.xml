@@ -16,7 +16,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.1.2" provider-name="TierraMedia">
+<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.1.3" provider-name="TierraMedia">
   <requires>
     <import addon="script.module.six" version="1.11.0"/>
     <import addon="script.module.resolveurl" version="5.0.00"/>
@@ -44,11 +44,10 @@
         <screenshot>resources/media/Captura4.png</screenshot>
     </assets>
     <news>
-        - #mejora: Añadido ajuste para ocultar el listado de series en seguimiento.
-- #mejora: Añadida opción 'Desmarcar vistos' en el menu contextual de las series en seguimiento.
-- #mejora: Añadida la opción 'Buscar trailer' en el menu contextual.
-- Reaparada compatibilidad kodi 19 RC1
-- Reparados varios bugs internos.
+        - #mejora: Inicio o continuación automática del último episodio en Series en Seguimiento.
+- Reparado bug en marcado como vistos y puntos de continuación.
+- Reparado bug en la localización de algunos trailers.
+- Reparado bug en listados de mas de 100 episodios.
     </news>
     <forum></forum>
   </extension>
