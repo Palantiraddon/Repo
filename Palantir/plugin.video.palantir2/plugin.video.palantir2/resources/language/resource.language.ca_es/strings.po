@@ -115,8 +115,8 @@ msgid "Reset Cache Extendedinfo"
 msgstr "Reiniciar Cache Extendedinfo"
 
 msgctxt "#30028"
-msgid "Movie views by year"
-msgstr "Vistes de pel·lícules per any"
+msgid "Sort Movies ..."
+msgstr "Ordenar pel·lícules ..."
 
 msgctxt "#30029"
 msgid "Always use resolveUrl"

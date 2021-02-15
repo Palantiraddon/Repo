@@ -111,8 +111,8 @@ msgid "Reset Cache ResolveUrl"
 msgstr "Réinitialiser le cache ResolveUrl"
 
 msgctxt "#30028"
-msgid "Movie views by year"
-msgstr "Vues de films par an"
+msgid "Sort Movies ..."
+msgstr "Ordonner des films..."
 
 msgctxt "#30029"
 msgid "Always use resolveUrl"

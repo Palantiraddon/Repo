@@ -725,7 +725,7 @@ msgid "Reset Cache Extendedinfo"
 msgstr ""
 
 msgctxt "#30028"
-msgid "Movie views by year"
+msgid "Sort Movies ..."
 msgstr ""
 
 msgctxt "#30029"
