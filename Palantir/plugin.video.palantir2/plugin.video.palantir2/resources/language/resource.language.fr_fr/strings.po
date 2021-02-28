@@ -246,8 +246,8 @@ msgid "Start next episode automatically"
 msgstr "Démarre automatiquement l'épisode suivant"
 
 msgctxt "#30062"
-msgid "Show series in follow-up"
-msgstr "Afficher les séries dans le suivi"
+msgid "Series in follow-up"
+msgstr "Série en suivi"
 
 msgctxt "#30063"
 msgid "There are no series in follow-up at this time"
@@ -445,6 +445,39 @@ msgctxt "#30141"
 msgid "Favorite Anime Series"
 msgstr "Série Anime préférée"
 
-msgctxt "#30142"
-msgid "Series in follow-up"
-msgstr "Série en suivi"
+msgctxt "#30143"
+msgid "Autoplay"
+msgstr "Lecture automatique"
+
+msgctxt "#30144"
+msgid "The link chosen automatically has failed. Choose another from the list"
+msgstr "Le lien choisi automatiquement a échoué. Choisissez-en un autre dans la liste"
+
+msgctxt "#30145"
+msgid "Information about Palantir 2"
+msgstr "Informations sur Palantir 2"
+
+msgctxt "#30146"
+msgid "Last update"
+msgstr "Dernière mise à jour"
+
+msgctxt "#30147"
+msgid "Set this view for movies"
+msgstr "Définir cette vue pour les films"
+
+msgctxt "#30148"
+msgid "Set this view for series"
+msgstr "Définir cette vue pour les séries"
+
+msgctxt "#30149"
+msgid "Set this view for seasons"
+msgstr "Définir cette vue pour les saisons"
+
+msgctxt "#30150"
+msgid "Set this view for episodes"
+msgstr "Définir cette vue pour les épisodes"
+
+msgctxt "#30151"
+msgid "Set this view for menus"
+msgstr "Définir cette vue pour les menus"
+

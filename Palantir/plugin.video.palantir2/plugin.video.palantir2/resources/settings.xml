@@ -21,21 +21,22 @@
 					<default>true</default>
 					<control type="toggle"/>
 				</setting>
-				<setting id="Autoplay" type="boolean" label="30025" help="">
-					<visible>False</visible>
-					<level>0</level>
-					<default>false</default>
-					<control type="toggle"/>
-				</setting>
 				<setting id="NextEpisode" type="boolean" label="30061" help="">
 					<level>0</level>
 					<default>true</default>
 					<control type="toggle"/>
 				</setting>
-				<setting id="follow-up" type="boolean" label="30062" help="">
+				<setting id="follow-up2" type="integer" label="30062" help="">
 					<level>0</level>
-					<default>true</default>
-					<control type="toggle"/>
+					<default>12</default>
+					<constraints>
+						<minimum>0</minimum>
+						<step>12</step>
+						<maximum>48</maximum>
+					</constraints>
+					<control type="slider" format="integer">
+						<popup>false</popup>
+					</control>
 				</setting>
 			</group>
 			<group id="2" label="30002">
@@ -1234,6 +1235,12 @@
 		</category>
 		<category id="mas..." label="30020" help="">
 			<group id="1">
+				<setting id="Autoplay" type="boolean" label="30143" help="">
+					<visible>True</visible>
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
 				<setting id="Always_resolveUrl" type="boolean" label="30029" help="">
 					<level>0</level>
 					<default>false</default>

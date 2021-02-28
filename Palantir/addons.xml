@@ -16,10 +16,10 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.1.4" provider-name="TierraMedia">
+<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.1.5" provider-name="TierraMedia">
   <requires>
     <import addon="script.module.six" version="1.11.0"/>
-    <import addon="script.module.resolveurl" version="5.0.00"/>
+    <import addon="script.module.resolveurl" version="5.0.00" optional="true"/>
     <import addon="script.module.pycryptodome"/>
     <import addon="script.extendedinfo" optional="true"/>
   </requires>
@@ -44,12 +44,11 @@
         <screenshot>resources/media/Captura4.png</screenshot>
     </assets>
     <news>
-        - #mejora: Criterio de ordenación de los listados de peliculas por año, calidad y género seleccionables desde ajustes.
-        - Reparado bug listado de Series Favoritas.
-- Reparado bug Eliminar Favoritos.
-- Reparado bug Desmarcar vistos en Series en Seguimiento.
-- Reparado bug en buscadores.
-- Reparados servidores internos.
+        - Añadidos nuevos servidores.
+- Añadido al Menu Contextual: Información sobre Palantir 2.
+- #mejora: Configurar el número de series en seguimiento (0-48)
+- #mejora: Inicio automático seleccionable desde ajustes.
+- #mejora: Cambio del sistema de gestión de vistas.
     </news>
     <forum></forum>
   </extension>
