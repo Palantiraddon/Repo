@@ -282,7 +282,15 @@ msgctxt "#30069"
 msgid "Season %s concluded. Check if there are more seasons available"
 msgstr "Stagione %s conclusa. Controlla se sono disponibili più stagioni"
 
-# empty strings from id 30070 to 30099
+msgctxt "#30070"
+msgid "It is not possible to automatically identify the next episode of this series"
+msgstr "Non è possibile identificare automaticamente il prossimo episodio di questa serie"
+
+msgctxt "#30071"
+msgid " Register for free at uptobox.com and add your account in the settings, to be able to use this server"
+msgstr " Registrati gratuitamente su uptobox.com e aggiungi il tuo account nelle impostazioni, per poter utilizzare questo server"
+
+# empty strings from id 30072 to 30099
 
 # moria
 

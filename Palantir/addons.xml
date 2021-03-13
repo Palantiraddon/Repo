@@ -16,7 +16,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.1.5" provider-name="TierraMedia">
+<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.1.8" provider-name="TierraMedia">
   <requires>
     <import addon="script.module.six" version="1.11.0"/>
     <import addon="script.module.resolveurl" version="5.0.00" optional="true"/>
@@ -43,12 +43,12 @@
         <screenshot>resources/media/Captura3.png</screenshot>
         <screenshot>resources/media/Captura4.png</screenshot>
     </assets>
-    <news>
-        - Añadidos nuevos servidores.
-- Añadido al Menu Contextual: Información sobre Palantir 2.
-- #mejora: Configurar el número de series en seguimiento (0-48)
-- #mejora: Inicio automático seleccionable desde ajustes.
-- #mejora: Cambio del sistema de gestión de vistas.
+    <news>- #mejora en la velocidad de navegación entre menús.
+- Cambio de ExtenderInfo por Embuary Info, mucho mas rapido, para mostrar información adicional.
+- Reparados servidores Top (necesário registro), Zipi, Chip y Chop.
+- Reparado bug al contabilizar séries mas vistas.
+- Reparado bug en función Siguiente Episodio.
+- Reparado bug que no marcaba los episodios iniciados automaticamente.
     </news>
     <forum></forum>
   </extension>

@@ -14,6 +14,7 @@ import time
 import zlib
 
 
+
 from threading import Lock
 
 from six.moves import urllib_parse
@@ -34,7 +35,7 @@ localize = addon.getLocalizedString
 runtime_path = translatePath(addon.getAddonInfo('Path'))
 data_path = translatePath(addon.getAddonInfo('Profile'))
 image_path = os.path.join(runtime_path, 'resources', 'media')
-extendedinfo = xbmc.getCondVisibility('System.HasAddon(script.extendedinfo)')
+
 kodi_version = re.match("\d+\.\d+", xbmc.getInfoLabel('System.BuildVersion'))
 kodi_version = float(kodi_version.group(0)) if kodi_version else 0.0
 
@@ -89,8 +90,11 @@ except Exception as e:
 else:
     O011 = ii11.MODE_OFB
 
-# Clases auxiliares
 
+
+
+
+# Clases auxiliares
 class Item(object):
     defaults = {}
 
