@@ -1142,7 +1142,7 @@
 			</group>
 		</category>
 		<category id="cuentas" label="30010" help="">
-			<group id="1" label="30011">
+			<group id="Top" label="30011">
 				<setting id="TOP_user" type="string" label="30012" help="">
 					<level>0</level>
 					<default/>
@@ -1176,60 +1176,19 @@
 					<control type="toggle"/>
 				</setting>
 			</group>
-			<group id="2" label="30014">
-				<visible>False</visible>
-				<setting id="drive_client_id" type="string" label="30015" help="">
+			<group id="Alldebrid" label="30014">
+				<setting id="Alldebrid_enabled" type="boolean" label="30072" help="">
 					<level>0</level>
-					<default/>
-					<constraints>
-						<allowempty>true</allowempty>
-					</constraints>
-					<control type="edit" format="string">
-						<heading>30015</heading>
-					</control>
+					<default>false</default>
+					<control type="toggle"/>
 				</setting>
-				<setting id="drive_client_secret" type="string" label="30016" help="">
+				<setting id="Alldebrid_onlyOrigin" type="boolean" label="30073" help="">
 					<level>0</level>
-					<default/>
-					<constraints>
-						<allowempty>true</allowempty>
-					</constraints>
-					<control type="edit" format="string">
-						<heading>30016</heading>
-					</control>
-				</setting>
-				<setting id="drive_code" type="string" label="30017" help="">
-					<level>0</level>
-					<default/>
-					<constraints>
-						<allowempty>true</allowempty>
-					</constraints>
-					<control type="edit" format="string">
-						<heading>30017</heading>
-					</control>
-				</setting>
-			</group>
-			<group id="3" label="30014">
-				<visible>False</visible>
-				<setting id="Alldebrid_name" type="string" label="30015" help="">
-					<level>0</level>
-					<default/>
-					<constraints>
-						<allowempty>true</allowempty>
-					</constraints>
-					<control type="edit" format="string">
-						<heading>30015</heading>
-					</control>
-				</setting>
-				<setting id="Alldebrid_apikey" type="string" label="30016" help="">
-					<level>0</level>
-					<default/>
-					<constraints>
-						<allowempty>true</allowempty>
-					</constraints>
-					<control type="edit" format="string">
-						<heading>30016</heading>
-					</control>
+					<dependencies>
+						<dependency type="enable" operator="is" setting="Alldebrid_enabled">true</dependency>
+					</dependencies>
+					<default>false</default>
+					<control type="toggle"/>
 				</setting>
 			</group>
 		</category>
@@ -1241,11 +1200,11 @@
 					<default>false</default>
 					<control type="toggle"/>
 				</setting>
-				<setting id="Always_resolveUrl" type="boolean" label="30029" help="">
+				<!--setting id="Always_resolveUrl" type="boolean" label="30029" help="">
 					<level>0</level>
 					<default>false</default>
 					<control type="toggle"/>
-				</setting>
+				</setting-->
 				<setting id="MPD_hidde" type="boolean" label="30058" help="">
 					<level>0</level>
 					<default>true</default>

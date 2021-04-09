@@ -285,7 +285,35 @@ msgctxt "#30071"
 msgid " Register for free at uptobox.com and add your account in the settings, to be able to use this server"
 msgstr " Inscrivez-vous gratuitement sur uptobox.com et ajoutez votre compte dans les paramètres, pour pouvoir utiliser ce serveur"
 
-# empty strings from id 30072 to 30099
+msgctxt "#30072"
+msgid "Activate"
+msgstr "Activer"
+
+msgctxt "#30073"
+msgid "Always play at full resolution"
+msgstr "Jouez toujours en pleine résolution"
+
+msgctxt "#30074"
+msgid "Enter [COLOR blue]'%s'[/ COLOR] with your user data and enter the pin [COLOR red]%s[/ COLOR] "
+msgstr "Entrez [COLOR blue]'%s'[/ COLOR] avec vos données utilisateur et entrez le code PIN [COLOR red]%s[/ COLOR] "
+
+msgctxt "#30075"
+msgid "before %s minutes and %s seconds."
+msgstr "avant %s minutes et %s secondes."
+
+msgctxt "#30076"
+msgid "Your Alldebrid account has been paired with Palantir 2"
+msgstr "Votre compte Alldebrid a été associé à Palantir 2"
+
+msgctxt "#30077"
+msgid "Failed to pair your Alldebrid account"
+msgstr "Échec de l'association de votre compte Alldebrid"
+
+msgctxt "#30078"
+msgid "Time exceeded"
+msgstr "Temps écoulé"
+
+# empty strings from id 30079 to 30099
 
 # moria
 

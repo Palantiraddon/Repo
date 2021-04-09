@@ -289,7 +289,35 @@ msgctxt "#30071"
 msgid " Register for free at uptobox.com and add your account in the settings, to be able to use this server"
 msgstr " Registreu-vos gratis a uptobox.com i afegeix el teu compte en els ajustos, per poder utilitzar aquest servidor"
 
-# empty strings from id 30072 to 30099
+msgctxt "#30072"
+msgid "Activate"
+msgstr "Activa"
+
+msgctxt "#30073"
+msgid "Always play at full resolution"
+msgstr "Reproduir sempre a màxima resolució"
+
+msgctxt "#30074"
+msgid "Enter [COLOR blue]'%s'[/ COLOR] with your user data and enter the pin [COLOR red]%s[/ COLOR] "
+msgstr "Entra en [COLOR blue]'%s'[/ COLOR] amb els teus dades d'usuari i introdueix el pin [COLOR red]%s[/ COLOR] "
+
+msgctxt "#30075"
+msgid "before %s minutes and %s seconds."
+msgstr "abans de %s minuts i %s segons."
+
+msgctxt "#30076"
+msgid "Your Alldebrid account has been paired with Palantir 2"
+msgstr "El seu compte de Alldebrid ha estat aparellada amb Palantir 2"
+
+msgctxt "#30077"
+msgid "Failed to pair your Alldebrid account"
+msgstr "Error a l'aparellar seu compte de Alldebrid"
+
+msgctxt "#30078"
+msgid "Time exceeded"
+msgstr "Temps excedit"
+
+# empty strings from id 30079 to 30099
 
 # moria
 
