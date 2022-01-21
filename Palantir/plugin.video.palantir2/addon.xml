@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.1.21" provider-name="TierraMedia">
+<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.1.23" provider-name="TierraMedia">
   <requires>
     <import addon="script.module.six" version="1.11.0"/>
+    <import addon="plugin.video.duffyou" version="0.1.3" optional="true"/>
     <import addon="script.module.resolveurl" version="5.0.00" optional="true"/>
     <import addon="script.module.inputstreamhelper" version="0.5.0"/>
     <import addon="script.module.pycryptodome"/>
@@ -27,7 +28,7 @@
         <screenshot>resources/media/Captura3.png</screenshot>
         <screenshot>resources/media/Captura4.png</screenshot>
     </assets>
-    <news>- Reparado error en Iniciar automaticamente
+    <news>- Añadir dependencia Duff You
     </news>
     <forum>https://t.me/addon_palantir</forum>
   </extension>
