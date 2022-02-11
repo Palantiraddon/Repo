@@ -25,7 +25,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.1.23" provider-name="TierraMedia">
+<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.1.24" provider-name="TierraMedia">
   <requires>
     <import addon="script.module.six" version="1.11.0"/>
     <import addon="plugin.video.duffyou" version="0.1.3" optional="true"/>
@@ -54,10 +54,23 @@
         <screenshot>resources/media/Captura3.png</screenshot>
         <screenshot>resources/media/Captura4.png</screenshot>
     </assets>
-    <news>- Añadir dependencia Duff You
-    </news>
+    <news></news>
     <forum>https://t.me/addon_palantir</forum>
   </extension>
+</addon>
+
+<addon id="repository.Maniac" name="Maniac repository" version="1.0.0" provider-name="Maniac">
+	<extension point="xbmc.addon.repository" name="Maniac Repository">
+		<info compressed="false">http://raw.github.com/Maniac2017/repository.Maniac/master/addons.xml</info>
+		<checksum>http://raw.github.com/Maniac2017/repository.Maniac/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/Maniac2017/repository.Maniac/master/repor/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Maniac Addon</summary>
+		<description>Repositorio NO oficial para Kodi</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="repository.gujal" name="Gujal Addon Repository" version="1.9" provider-name="Gujal">
@@ -74,20 +87,6 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>Third party Addons for Kodi</summary>
 		<description>Gujal Addons Repository</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.Maniac" name="Maniac repository" version="1.0.0" provider-name="Maniac">
-	<extension point="xbmc.addon.repository" name="Maniac Repository">
-		<info compressed="false">http://raw.github.com/Maniac2017/repository.Maniac/master/addons.xml</info>
-		<checksum>http://raw.github.com/Maniac2017/repository.Maniac/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/Maniac2017/repository.Maniac/master/repor/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Maniac Addon</summary>
-		<description>Repositorio NO oficial para Kodi</description>
-		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
