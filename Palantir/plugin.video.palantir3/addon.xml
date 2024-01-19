@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.palantir3" name="[COLOR gold]Palantir 3[/COLOR]" version="3.0.13" provider-name="TierraMedia">
+<addon id="plugin.video.palantir3" name="[COLOR gold]Palantir 3[/COLOR]" version="3.0.14" provider-name="TierraMedia">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.inputstreamhelper" version="0.5.0"/>
@@ -22,6 +22,12 @@
           <visible>String.IsEqual(Container.PluginName,"plugin.video.palantir3")</visible>
         </item>
       </menu>
+  </extension>
+
+  <extension point="xbmc.addon.repository" name="Palantir Repo">
+    <info>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/plugin.video.palantir3/</datadir>
   </extension>
 
   <extension point="xbmc.addon.metadata">
