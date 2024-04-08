@@ -1,7 +1,6 @@
 script_name = "repo_prep.py"
 revision_number = 5
-homepage = 'http://forum.xbmc.org/showthread.php?tid=129401'
-script_credits = 'All code copyleft (GNU GPL v3) by Unobtanium @ XBMC Forums'
+script_credits = 'TierraMedia'
 
 """
 Please bump the version number one decimal point and add your name to credits when making changes.
@@ -46,7 +45,6 @@ if standalone:
             if repo_root == False: repo_root = os.getcwd()
             print script_name + '  v' + str(revision_number)
             print script_credits
-            print 'Homepage and updates: ' + homepage
             print ' '
             
 else:
@@ -134,7 +132,7 @@ class Generator:
                     self._generate_md5_file()
        
                     # notify user
-                    print "Updated addons xml and addons.xml.md5 files"
+                    print "Cambiado addons xml y addons.xml.md5"
         else: print "Could not find any addons, so script has done nothing."
 
         
